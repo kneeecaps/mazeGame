@@ -68,5 +68,10 @@ private:
   SDL_Texture* dirtBottomLeft;
   SDL_Texture* dirtBottomRight;
 
+  SDL_Rect noLeaderboardTxtSrcRect;
+  SDL_Rect noLeaderboardTxtDestRect;
+
+  SDL_Texture* noLeaderboardText;
+
   std::vector<leaderboardPos> leaderboard;
 };

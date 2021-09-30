@@ -33,42 +33,42 @@ void Game::init(const char* title, int xpos, int ypos, int width, int height, bo
   }
   if(SDL_Init(SDL_INIT_EVERYTHING) == 0)
   {
-      std::cout << "Subsystems Initialised...\n";
+    std::cout << "Subsystems Initialised...\n";
 
-      window = SDL_CreateWindow(title, xpos, ypos, width, height, flags);
-      if(window)
-      {
-        std::cout << "Window created...\n";
-      }
+    window = SDL_CreateWindow(title, xpos, ypos, width, height, flags);
+    if(window)
+    {
+      std::cout << "Window created...\n";
+    }
 
-      renderer = SDL_CreateRenderer(window, -1, 0);
-      if(renderer)
-      {
-        SDL_SetRenderDrawColor(renderer, 255, 255, 255, 255);
-        std::cout << "Renderer created...\n";
-      }
+    renderer = SDL_CreateRenderer(window, -1, 0);
+    if(renderer)
+    {
+      SDL_SetRenderDrawColor(renderer, 255, 255, 255, 255);
+      std::cout << "Renderer created...\n";
+    }
 
-      leaderboard = new Leaderboard();
+    leaderboard = new Leaderboard();
 
-      moneySrcRect.h = 32;
-      moneySrcRect.w = 32;
-      moneySrcRect.y = 0;
-      moneySrcRect.x = 0;
-      moneyDestRect.h = 32;
-      moneyDestRect.w = 32;
-      moneyDestRect.y = 0;
-      moneyDestRect.x = 0;
+    moneySrcRect.h = 32;
+    moneySrcRect.w = 32;
+    moneySrcRect.y = 0;
+    moneySrcRect.x = 0;
+    moneyDestRect.h = 32;
+    moneyDestRect.w = 32;
+    moneyDestRect.y = 0;
+    moneyDestRect.x = 0;
 
-      coin07 = textureManager::loadTexture("assets/coin0.7.png");
-      coin17 = textureManager::loadTexture("assets/coin1.7.png");
-      coin27 = textureManager::loadTexture("assets/coin2.7.png");
-      coin37 = textureManager::loadTexture("assets/coin3.7.png");
-      coin47 = textureManager::loadTexture("assets/coin4.7.png");
-      coin57 = textureManager::loadTexture("assets/coin5.7.png");
-      coin67 = textureManager::loadTexture("assets/coin6.7.png");
-      coin77 = textureManager::loadTexture("assets/coin7.7.png");
+    coin07 = textureManager::loadTexture("assets/coin0.7.png");
+    coin17 = textureManager::loadTexture("assets/coin1.7.png");
+    coin27 = textureManager::loadTexture("assets/coin2.7.png");
+    coin37 = textureManager::loadTexture("assets/coin3.7.png");
+    coin47 = textureManager::loadTexture("assets/coin4.7.png");
+    coin57 = textureManager::loadTexture("assets/coin5.7.png");
+    coin67 = textureManager::loadTexture("assets/coin6.7.png");
+    coin77 = textureManager::loadTexture("assets/coin7.7.png");
 
-      isRunning = true;
+    isRunning = true;
   } else {
     isRunning = false;
   }
@@ -193,12 +193,11 @@ void Game::render()
 
   if(leaderboardShown)
   {
-    leaderboard->displayLeaderboard(); //might remove and just have two functions below
+    leaderboard->displayLeaderboard();
     leaderboard->showLeaderboardBackground();
     leaderboard->showLeaderboardText();
   }
 
-  //SDL_RenderCopy(renderer, Message, NULL, &Message_rect); //remove this later, trying to see if text works
   SDL_RenderPresent(renderer);
 }
 void Game::clean()

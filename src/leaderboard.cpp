@@ -19,6 +19,14 @@ Leaderboard::Leaderboard()
   backgroundSrcRect.h = backgroundDestRect.h = 32;
 
   backgroundDestRect.x = backgroundDestRect.y = 0;
+
+  noLeaderboardText = textureManager::loadTexture("assets/noLeaderboardText.png");
+
+  noLeaderboardTxtSrcRect.x = noLeaderboardTxtSrcRect.y = 0;
+  noLeaderboardTxtSrcRect.w = noLeaderboardTxtDestRect.w = 768;
+  noLeaderboardTxtSrcRect.h = noLeaderboardTxtDestRect.h = 608;
+
+  noLeaderboardTxtDestRect.x = noLeaderboardTxtDestRect.y = 32;
 }
 Leaderboard::~Leaderboard()
 {
@@ -100,13 +108,12 @@ void Leaderboard::showLeaderboardBackground()
 
 void Leaderboard::showLeaderboardText()
 {
-
+  textureManager::draw(noLeaderboardText, noLeaderboardTxtSrcRect, noLeaderboardTxtDestRect);
 }
 
 void Leaderboard::displayLeaderboard()
 {
   getLeaderboard();
-  showLeaderboardBackground();
 
   std::cout << "--LEADERBOARD--\n";
   int j = 1;
@@ -114,7 +121,7 @@ void Leaderboard::displayLeaderboard()
   {
     if(j < 6)
     {
-      std::cout << j << ". " << "Name: " << i.name << "\tTime: " << i.time << "\tMoney: " << i.money << "\tScore: " << i.score << "\n";
+      std::cout << j << ". " << "Name: " << i.name << "; Time: " << i.time << "; Money: " << i.money << "; Score: " << i.score << "\n";
       j++;
     } else {
       break;
