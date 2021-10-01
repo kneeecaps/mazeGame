@@ -5,8 +5,6 @@ file(REMOVE_RECURSE
   "../mazeGame.pdb"
   "CMakeFiles/mazeGame.dir/src/game.cpp.obj"
   "CMakeFiles/mazeGame.dir/src/game.cpp.obj.d"
-  "CMakeFiles/mazeGame.dir/src/gameObject.cpp.obj"
-  "CMakeFiles/mazeGame.dir/src/gameObject.cpp.obj.d"
   "CMakeFiles/mazeGame.dir/src/gameplayMap.cpp.obj"
   "CMakeFiles/mazeGame.dir/src/gameplayMap.cpp.obj.d"
   "CMakeFiles/mazeGame.dir/src/leaderboard.cpp.obj"

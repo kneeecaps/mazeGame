@@ -6,7 +6,6 @@ cmake_policy(SET CMP0009 NEW)
 file(GLOB NEW_GLOB LIST_DIRECTORIES true "B:/Coding/c++/games/mazeGame/src/*.cpp")
 set(OLD_GLOB
   "B:/Coding/c++/games/mazeGame/src/game.cpp"
-  "B:/Coding/c++/games/mazeGame/src/gameObject.cpp"
   "B:/Coding/c++/games/mazeGame/src/gameplayMap.cpp"
   "B:/Coding/c++/games/mazeGame/src/leaderboard.cpp"
   "B:/Coding/c++/games/mazeGame/src/main.cpp"
@@ -22,7 +21,6 @@ endif()
 file(GLOB NEW_GLOB LIST_DIRECTORIES true "B:/Coding/c++/games/mazeGame/src/*.h")
 set(OLD_GLOB
   "B:/Coding/c++/games/mazeGame/src/game.h"
-  "B:/Coding/c++/games/mazeGame/src/gameObject.h"
   "B:/Coding/c++/games/mazeGame/src/gameplayMap.h"
   "B:/Coding/c++/games/mazeGame/src/leaderboard.h"
   "B:/Coding/c++/games/mazeGame/src/map.h"

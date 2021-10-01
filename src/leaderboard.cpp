@@ -50,10 +50,10 @@ void Leaderboard::getLeaderboard()
     tmpScore = std::stoi(line.substr(line.find('@') + 1));
 
     leaderboard.push_back(leaderboardPos(tmpName, tmpTime, tmpMoney, tmpScore));
-  }
+  } //std::string line; getline(leaderboardFile, line);
 
   std::partial_sort(leaderboard.begin(), leaderboard.begin() + 5, leaderboard.end(), std::greater{});
-}
+} //getLeaderboard()
 
 void Leaderboard::showLeaderboardBackground()
 {
@@ -101,10 +101,10 @@ void Leaderboard::showLeaderboardBackground()
         break;
       default:
         break;
-      }
-    }
-  }
-}
+      } //switch(type)
+    } //int column = 0; column < 25; column++
+  } //int row = 0; row < 20; row++
+} //showLeaderboardBackground()
 
 void Leaderboard::showLeaderboardText()
 {
@@ -123,11 +123,13 @@ void Leaderboard::displayLeaderboard()
     {
       std::cout << j << ". " << "Name: " << i.name << "; Time: " << i.time << "; Money: " << i.money << "; Score: " << i.score << "\n";
       j++;
-    } else {
+    } // j < 6
+    else
+    {
       break;
     }
-  }
-}
+  } //leaderboardPos i : leaderboard
+} //displayLeaderboard()
 
 void Leaderboard::saveToLeaderboard(std::string name, int time, int money, int score)
 {
@@ -137,4 +139,4 @@ void Leaderboard::saveToLeaderboard(std::string name, int time, int money, int s
   leaderboardFile.open("data\\leaderboard\\leaderboard.data", std::ios::app);
 
   leaderboardFile << "\n" << tmpLeaderboardPos.name << '*' << tmpLeaderboardPos.time << '#' << tmpLeaderboardPos.money << '@' << tmpLeaderboardPos.score;
-}
+} //saveToLeaderboard(std::string name, int time, int money, int score)

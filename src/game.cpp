@@ -1,9 +1,6 @@
 #include <iostream>
 
-//#include "SDL2/SDL_ttf.h"
-
 #include "game.h"
-#include "gameObject.h"
 #include "textureManager.h"
 #include "map.h"
 #include "gameplayMap.h"
@@ -46,7 +43,7 @@ void Game::init(const char* title, int xpos, int ypos, int width, int height, bo
     {
       SDL_SetRenderDrawColor(renderer, 255, 255, 255, 255);
       std::cout << "Renderer created...\n";
-    }
+    } //renderer
 
     leaderboard = new Leaderboard();
 
@@ -69,13 +66,15 @@ void Game::init(const char* title, int xpos, int ypos, int width, int height, bo
     coin77 = textureManager::loadTexture("assets/coin7.7.png");
 
     isRunning = true;
-  } else {
+  } //SDL_Init(SDL_INIT_EVERYTHING) == 0
+  else
+  {
     isRunning = false;
   }
 
   map = new Map();
   gameMap = new gameplayMap();
-}
+} //init(const char* title, int xpos, int ypos, int width, int height, bool fullscreen)
 
 void Game::gameComplete()
 {
@@ -96,11 +95,11 @@ void Game::gameComplete()
     std::cin >> tmpUsername;
 
     leaderboard->saveToLeaderboard(tmpUsername, getTime(), getMoney(), getScore());
-  }
+  } //saveYN == 'y' || saveYN == 'Y'
   system("pause");
 
   isRunning = false;
-}
+} //gameComplete()
 
 void Game::handleEvents()
 {
@@ -144,9 +143,9 @@ void Game::handleEvents()
       break;
     default:
       break;
-    }
-  }
-}
+    } //switch(event.key.keysym.sym)
+  } //switch(event.type)
+} //handleEvents()
 void Game::update()
 {
   frameCount++;
@@ -155,7 +154,7 @@ void Game::update()
   {
     gameMap->removeEnemy();
   }
-}
+} //update()
 void Game::render()
 {
   SDL_RenderClear(renderer);
@@ -189,7 +188,7 @@ void Game::render()
     break;
   default:
     break;
-  }
+  } //switch(money)
 
   if(leaderboardShown)
   {
@@ -199,7 +198,7 @@ void Game::render()
   }
 
   SDL_RenderPresent(renderer);
-}
+} //render()
 void Game::clean()
 {
   SDL_DestroyWindow(window);
@@ -207,4 +206,4 @@ void Game::clean()
   SDL_Quit();
 
   std::cout << "Game cleaned...\n";
-}
+} //clean()

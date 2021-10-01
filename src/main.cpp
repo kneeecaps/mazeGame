@@ -31,10 +31,10 @@ int main(int argc, char* argv[])
     if(frameDelay > frameTime)
     {
       SDL_Delay(frameDelay - frameTime);
-    }
-  }
+    } //frameDelay > frameTime
+  } //game->running()
 
   game->clean();
 
   return 0;
-}
+} //int main(int argc, char* argv[])

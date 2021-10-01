@@ -16,7 +16,7 @@ gameplayMap::gameplayMap()
   srcRect.h = destRect.h = 32;
 
   destRect.x = destRect.y = 0;
-}
+} //gameplayMap()
 gameplayMap::~gameplayMap()
 {
 
@@ -31,9 +31,9 @@ void gameplayMap::loadMap(int arr[20][25])
     for(int column = 0; column < 25; column++)
     {
       map[row][column] = arr[row][column];
-    }
-  }
-}
+    } //int column = 0; column < 25; column++
+  } //int row = 0; row < 20; row++
+} //loadMap(int arr[20][25])
 void gameplayMap::drawMap()
 {
   loadMap(gameplayMap1);
@@ -71,10 +71,10 @@ void gameplayMap::drawMap()
         break;
       default:
         break;
-      }
-    }
-  }
-}
+      } //switch(type)
+    } //int column = 0; column < 25; column++
+  } //int row = 0; row < 20; row++
+} //drawMap()
 
 void gameplayMap::removeEnemy()
 {
@@ -119,9 +119,9 @@ int gameplayMap::move(int direction)
     break;
   default:
     break;
-  }
+  } //switch(direction)
   return checkedMove;
-}
+} //move(int direction)
 
 int gameplayMap::checkMove(int direction)
 {
@@ -153,6 +153,6 @@ int gameplayMap::checkMove(int direction)
     return gameplayMap1[playerY][playerX - 1];
   default:
     break;
-  }
+  } //switch(direction)
   return 1;
-}
+} //checkMove(int direction)

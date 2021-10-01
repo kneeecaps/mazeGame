@@ -13,7 +13,7 @@ Map::Map()
   srcRect.h = destRect.h = 32;
 
   destRect.x = destRect.y = 0;
-}
+} //Map()
 Map::~Map()
 {
 
@@ -26,9 +26,9 @@ void Map::loadMap(int arr[20][25])
     for(int column = 0; column < 25; column++)
     {
       map[row][column] = arr[row][column];
-    }
-  }
-}
+    } //int column = 0; column < 25; column++
+  } //int row = 0; row < 20; row++
+} //loadMap(int arr[20][25])
 void Map::drawMap()
 {
   int type = 0;
@@ -52,7 +52,7 @@ void Map::drawMap()
         break;
       default:
         break;
-      }
-    }
-  }
-}
+      } //switch(type)
+    } //int column = 0; column < 25; column++
+  } //int row = 0; row < 20; row++
+} //drawMap()

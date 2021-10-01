@@ -153,30 +153,6 @@ src/game.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\mazeGame.dir\build.make CMakeFiles/mazeGame.dir/src/game.cpp.s
 .PHONY : src/game.cpp.s
 
-src/gameObject.obj: src/gameObject.cpp.obj
-.PHONY : src/gameObject.obj
-
-# target to build an object file
-src/gameObject.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\mazeGame.dir\build.make CMakeFiles/mazeGame.dir/src/gameObject.cpp.obj
-.PHONY : src/gameObject.cpp.obj
-
-src/gameObject.i: src/gameObject.cpp.i
-.PHONY : src/gameObject.i
-
-# target to preprocess a source file
-src/gameObject.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\mazeGame.dir\build.make CMakeFiles/mazeGame.dir/src/gameObject.cpp.i
-.PHONY : src/gameObject.cpp.i
-
-src/gameObject.s: src/gameObject.cpp.s
-.PHONY : src/gameObject.s
-
-# target to generate assembly for a file
-src/gameObject.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\mazeGame.dir\build.make CMakeFiles/mazeGame.dir/src/gameObject.cpp.s
-.PHONY : src/gameObject.cpp.s
-
 src/gameplayMap.obj: src/gameplayMap.cpp.obj
 .PHONY : src/gameplayMap.obj
 
@@ -309,9 +285,6 @@ help:
 	@echo ... src/game.obj
 	@echo ... src/game.i
 	@echo ... src/game.s
-	@echo ... src/gameObject.obj
-	@echo ... src/gameObject.i
-	@echo ... src/gameObject.s
 	@echo ... src/gameplayMap.obj
 	@echo ... src/gameplayMap.i
 	@echo ... src/gameplayMap.s
