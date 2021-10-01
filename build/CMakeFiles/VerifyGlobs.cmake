@@ -30,3 +30,13 @@ if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
   file(TOUCH_NOCREATE "B:/Coding/c++/games/mazeGame/build/CMakeFiles/cmake.verify_globs")
 endif()
+
+# projectSRC at CMakeLists.txt:5 (file)
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "B:/Coding/c++/games/mazeGame/src/*.o")
+set(OLD_GLOB
+  "B:/Coding/c++/games/mazeGame/src/mazeGame.o"
+  )
+if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
+  message("-- GLOB mismatch!")
+  file(TOUCH_NOCREATE "B:/Coding/c++/games/mazeGame/build/CMakeFiles/cmake.verify_globs")
+endif()
