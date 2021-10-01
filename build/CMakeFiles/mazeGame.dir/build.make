@@ -168,7 +168,8 @@ mazeGame_OBJECTS = \
 "CMakeFiles/mazeGame.dir/src/textureManager.cpp.obj"
 
 # External object files for target mazeGame
-mazeGame_EXTERNAL_OBJECTS =
+mazeGame_EXTERNAL_OBJECTS = \
+"B:/Coding/c++/games/mazeGame/src/mazeGame.o"
 
 ../mazeGame.exe: CMakeFiles/mazeGame.dir/src/game.cpp.obj
 ../mazeGame.exe: CMakeFiles/mazeGame.dir/src/gameplayMap.cpp.obj
@@ -176,6 +177,7 @@ mazeGame_EXTERNAL_OBJECTS =
 ../mazeGame.exe: CMakeFiles/mazeGame.dir/src/main.cpp.obj
 ../mazeGame.exe: CMakeFiles/mazeGame.dir/src/map.cpp.obj
 ../mazeGame.exe: CMakeFiles/mazeGame.dir/src/textureManager.cpp.obj
+../mazeGame.exe: ../src/mazeGame.o
 ../mazeGame.exe: CMakeFiles/mazeGame.dir/build.make
 ../mazeGame.exe: ../lib/SDL2/lib/libSDL2_image.a
 ../mazeGame.exe: ../lib/SDL2/lib/libSDL2_image.dll.a

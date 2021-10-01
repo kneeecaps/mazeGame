@@ -282,7 +282,6 @@ CMakeFiles/mazeGame.dir/src/game.cpp.obj: ../src/game.cpp \
   ../lib/SDL2/include/SDL2/SDL_misc.h \
   ../lib/SDL2/include/SDL2/SDL_image.h \
   ../lib/SDL2/include/SDL2/SDL.h \
-  ../src/gameObject.h \
   ../src/textureManager.h \
   ../src/map.h \
   ../src/gameplayMap.h \
@@ -2054,8 +2053,6 @@ C:/mingw32/lib/gcc/i686-w64-mingw32/11.1.0/include/ammintrin.h:
 ../lib/SDL2/include/SDL2/SDL_misc.h:
 
 ../lib/SDL2/include/SDL2/SDL_image.h:
-
-../src/gameObject.h:
 
 ../src/textureManager.h:
 

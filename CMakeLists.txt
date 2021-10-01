@@ -9,7 +9,7 @@ set(EXECUTABLE_OUTPUT_PATH ${CMAKE_CURRENT_SOURCE_DIR})
 
 include_directories(lib/SDL2/include)
 
-add_executable(${PROJECT_NAME} ${projectSRC})
+add_executable(${PROJECT_NAME} ${projectSRC} "src/mazeGame.o")
 
 target_link_libraries(${PROJECT_NAME} -lmingw32
   ${SDL2_LIBRARY_DIR}/libSDL2_image.a
