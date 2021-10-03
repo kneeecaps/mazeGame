@@ -1,5 +1,140 @@
 CMakeFiles/mazeGame.dir/src/gameplayMap.cpp.obj: \
  B:\Coding\c++\games\mazeGame\src\gameplayMap.cpp \
+ c:\mingw32\include\c++\11.1.0\iostream \
+ c:\mingw32\include\c++\11.1.0\i686-w64-mingw32\bits\c++config.h \
+ c:\mingw32\include\c++\11.1.0\i686-w64-mingw32\bits\os_defines.h \
+ c:\mingw32\include\c++\11.1.0\i686-w64-mingw32\bits\cpu_defines.h \
+ c:\mingw32\include\c++\11.1.0\pstl\pstl_config.h \
+ c:\mingw32\include\c++\11.1.0\ostream c:\mingw32\include\c++\11.1.0\ios \
+ c:\mingw32\include\c++\11.1.0\iosfwd \
+ c:\mingw32\include\c++\11.1.0\bits\stringfwd.h \
+ c:\mingw32\include\c++\11.1.0\bits\memoryfwd.h \
+ c:\mingw32\include\c++\11.1.0\bits\postypes.h \
+ c:\mingw32\include\c++\11.1.0\cwchar \
+ c:\mingw32\i686-w64-mingw32\include\wchar.h \
+ c:\mingw32\i686-w64-mingw32\include\corecrt.h \
+ c:\mingw32\i686-w64-mingw32\include\_mingw.h \
+ c:\mingw32\i686-w64-mingw32\include\_mingw_mac.h \
+ c:\mingw32\i686-w64-mingw32\include\_mingw_secapi.h \
+ c:\mingw32\i686-w64-mingw32\include\vadefs.h \
+ c:\mingw32\i686-w64-mingw32\include\sdks/_mingw_ddk.h \
+ c:\mingw32\i686-w64-mingw32\include\corecrt_stdio_config.h \
+ c:\mingw32\i686-w64-mingw32\include\corecrt_wstdlib.h \
+ c:\mingw32\i686-w64-mingw32\include\_mingw_off_t.h \
+ c:\mingw32\i686-w64-mingw32\include\_mingw_stat64.h \
+ c:\mingw32\i686-w64-mingw32\include\swprintf.inl \
+ c:\mingw32\i686-w64-mingw32\include\sec_api\wchar_s.h \
+ c:\mingw32\include\c++\11.1.0\exception \
+ c:\mingw32\include\c++\11.1.0\bits\exception.h \
+ c:\mingw32\include\c++\11.1.0\bits\exception_ptr.h \
+ c:\mingw32\include\c++\11.1.0\bits\exception_defines.h \
+ c:\mingw32\include\c++\11.1.0\bits\cxxabi_init_exception.h \
+ c:\mingw32\lib\gcc\i686-w64-mingw32\11.1.0\include\stddef.h \
+ c:\mingw32\i686-w64-mingw32\include\stddef.h \
+ c:\mingw32\i686-w64-mingw32\include\crtdefs.h \
+ c:\mingw32\include\c++\11.1.0\typeinfo \
+ c:\mingw32\include\c++\11.1.0\bits\hash_bytes.h \
+ c:\mingw32\include\c++\11.1.0\new \
+ c:\mingw32\include\c++\11.1.0\bits\nested_exception.h \
+ c:\mingw32\include\c++\11.1.0\bits\move.h \
+ c:\mingw32\include\c++\11.1.0\type_traits \
+ c:\mingw32\include\c++\11.1.0\bits\char_traits.h \
+ c:\mingw32\include\c++\11.1.0\bits\stl_algobase.h \
+ c:\mingw32\include\c++\11.1.0\bits\functexcept.h \
+ c:\mingw32\include\c++\11.1.0\bits\cpp_type_traits.h \
+ c:\mingw32\include\c++\11.1.0\ext\type_traits.h \
+ c:\mingw32\include\c++\11.1.0\ext\numeric_traits.h \
+ c:\mingw32\include\c++\11.1.0\bits\stl_pair.h \
+ c:\mingw32\include\c++\11.1.0\bits\stl_iterator_base_types.h \
+ c:\mingw32\include\c++\11.1.0\bits\stl_iterator_base_funcs.h \
+ c:\mingw32\include\c++\11.1.0\bits\concept_check.h \
+ c:\mingw32\include\c++\11.1.0\debug\assertions.h \
+ c:\mingw32\include\c++\11.1.0\bits\stl_iterator.h \
+ c:\mingw32\include\c++\11.1.0\bits\ptr_traits.h \
+ c:\mingw32\include\c++\11.1.0\debug\debug.h \
+ c:\mingw32\include\c++\11.1.0\bits\predefined_ops.h \
+ c:\mingw32\include\c++\11.1.0\cstdint \
+ c:\mingw32\lib\gcc\i686-w64-mingw32\11.1.0\include\stdint.h \
+ c:\mingw32\i686-w64-mingw32\include\stdint.h \
+ c:\mingw32\include\c++\11.1.0\bits\localefwd.h \
+ c:\mingw32\include\c++\11.1.0\i686-w64-mingw32\bits\c++locale.h \
+ c:\mingw32\include\c++\11.1.0\clocale \
+ c:\mingw32\i686-w64-mingw32\include\locale.h \
+ c:\mingw32\i686-w64-mingw32\include\stdio.h \
+ c:\mingw32\i686-w64-mingw32\include\sec_api\stdio_s.h \
+ c:\mingw32\include\c++\11.1.0\cctype \
+ c:\mingw32\i686-w64-mingw32\include\ctype.h \
+ c:\mingw32\include\c++\11.1.0\bits\ios_base.h \
+ c:\mingw32\include\c++\11.1.0\ext\atomicity.h \
+ c:\mingw32\include\c++\11.1.0\i686-w64-mingw32\bits\gthr.h \
+ c:\mingw32\include\c++\11.1.0\i686-w64-mingw32\bits\gthr-default.h \
+ c:\mingw32\i686-w64-mingw32\include\pthread.h \
+ c:\mingw32\i686-w64-mingw32\include\errno.h \
+ c:\mingw32\i686-w64-mingw32\include\sys\types.h \
+ c:\mingw32\i686-w64-mingw32\include\process.h \
+ c:\mingw32\i686-w64-mingw32\include\corecrt_startup.h \
+ c:\mingw32\lib\gcc\i686-w64-mingw32\11.1.0\include-fixed\limits.h \
+ c:\mingw32\lib\gcc\i686-w64-mingw32\11.1.0\include-fixed\syslimits.h \
+ c:\mingw32\i686-w64-mingw32\include\limits.h \
+ c:\mingw32\i686-w64-mingw32\include\signal.h \
+ c:\mingw32\i686-w64-mingw32\include\pthread_signal.h \
+ c:\mingw32\i686-w64-mingw32\include\time.h \
+ c:\mingw32\i686-w64-mingw32\include\_timeval.h \
+ c:\mingw32\i686-w64-mingw32\include\sys\timeb.h \
+ c:\mingw32\i686-w64-mingw32\include\sec_api\sys\timeb_s.h \
+ c:\mingw32\i686-w64-mingw32\include\pthread_time.h \
+ c:\mingw32\i686-w64-mingw32\include\pthread_compat.h \
+ c:\mingw32\i686-w64-mingw32\include\pthread_unistd.h \
+ c:\mingw32\include\c++\11.1.0\i686-w64-mingw32\bits\atomic_word.h \
+ c:\mingw32\include\c++\11.1.0\bits\locale_classes.h \
+ c:\mingw32\include\c++\11.1.0\string \
+ c:\mingw32\include\c++\11.1.0\bits\allocator.h \
+ c:\mingw32\include\c++\11.1.0\i686-w64-mingw32\bits\c++allocator.h \
+ c:\mingw32\include\c++\11.1.0\ext\new_allocator.h \
+ c:\mingw32\include\c++\11.1.0\bits\ostream_insert.h \
+ c:\mingw32\include\c++\11.1.0\bits\cxxabi_forced.h \
+ c:\mingw32\include\c++\11.1.0\bits\stl_function.h \
+ c:\mingw32\include\c++\11.1.0\backward\binders.h \
+ c:\mingw32\include\c++\11.1.0\bits\range_access.h \
+ c:\mingw32\include\c++\11.1.0\initializer_list \
+ c:\mingw32\include\c++\11.1.0\bits\basic_string.h \
+ c:\mingw32\include\c++\11.1.0\ext\alloc_traits.h \
+ c:\mingw32\include\c++\11.1.0\bits\alloc_traits.h \
+ c:\mingw32\include\c++\11.1.0\bits\stl_construct.h \
+ c:\mingw32\include\c++\11.1.0\string_view \
+ c:\mingw32\include\c++\11.1.0\bits\functional_hash.h \
+ c:\mingw32\include\c++\11.1.0\bits\ranges_base.h \
+ c:\mingw32\include\c++\11.1.0\bits\string_view.tcc \
+ c:\mingw32\include\c++\11.1.0\ext\string_conversions.h \
+ c:\mingw32\include\c++\11.1.0\cstdlib \
+ c:\mingw32\i686-w64-mingw32\include\stdlib.h \
+ c:\mingw32\i686-w64-mingw32\include\sec_api\stdlib_s.h \
+ c:\mingw32\include\c++\11.1.0\stdlib.h \
+ c:\mingw32\i686-w64-mingw32\include\malloc.h \
+ c:\mingw32\lib\gcc\i686-w64-mingw32\11.1.0\include\mm_malloc.h \
+ c:\mingw32\include\c++\11.1.0\bits\std_abs.h \
+ c:\mingw32\include\c++\11.1.0\cstdio \
+ c:\mingw32\include\c++\11.1.0\cerrno \
+ c:\mingw32\include\c++\11.1.0\bits\charconv.h \
+ c:\mingw32\include\c++\11.1.0\bits\basic_string.tcc \
+ c:\mingw32\include\c++\11.1.0\bits\locale_classes.tcc \
+ c:\mingw32\include\c++\11.1.0\system_error \
+ c:\mingw32\include\c++\11.1.0\i686-w64-mingw32\bits\error_constants.h \
+ c:\mingw32\include\c++\11.1.0\stdexcept \
+ c:\mingw32\include\c++\11.1.0\streambuf \
+ c:\mingw32\include\c++\11.1.0\bits\streambuf.tcc \
+ c:\mingw32\include\c++\11.1.0\bits\basic_ios.h \
+ c:\mingw32\include\c++\11.1.0\bits\locale_facets.h \
+ c:\mingw32\include\c++\11.1.0\cwctype \
+ c:\mingw32\i686-w64-mingw32\include\wctype.h \
+ c:\mingw32\include\c++\11.1.0\i686-w64-mingw32\bits\ctype_base.h \
+ c:\mingw32\include\c++\11.1.0\bits\streambuf_iterator.h \
+ c:\mingw32\include\c++\11.1.0\i686-w64-mingw32\bits\ctype_inline.h \
+ c:\mingw32\include\c++\11.1.0\bits\locale_facets.tcc \
+ c:\mingw32\include\c++\11.1.0\bits\basic_ios.tcc \
+ c:\mingw32\include\c++\11.1.0\bits\ostream.tcc \
+ c:\mingw32\include\c++\11.1.0\istream \
+ c:\mingw32\include\c++\11.1.0\bits\istream.tcc \
  B:\Coding\c++\games\mazeGame\src\gameplayMap.h \
  B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_image.h \
  B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL.h \
@@ -9,20 +144,9 @@ CMakeFiles/mazeGame.dir/src/gameplayMap.cpp.obj: \
  B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_platform.h \
  B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/begin_code.h \
  B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/close_code.h \
- c:\mingw32\lib\gcc\i686-w64-mingw32\11.1.0\include\stddef.h \
- c:\mingw32\i686-w64-mingw32\include\stddef.h \
- c:\mingw32\i686-w64-mingw32\include\crtdefs.h \
- c:\mingw32\i686-w64-mingw32\include\corecrt.h \
- c:\mingw32\i686-w64-mingw32\include\_mingw.h \
- c:\mingw32\i686-w64-mingw32\include\_mingw_mac.h \
- c:\mingw32\i686-w64-mingw32\include\_mingw_secapi.h \
- c:\mingw32\i686-w64-mingw32\include\vadefs.h \
- c:\mingw32\i686-w64-mingw32\include\sdks/_mingw_ddk.h \
  c:\mingw32\lib\gcc\i686-w64-mingw32\11.1.0\include\stdarg.h \
  c:\mingw32\i686-w64-mingw32\include\stdarg.h \
  c:\mingw32\i686-w64-mingw32\include\_mingw_stdarg.h \
- c:\mingw32\lib\gcc\i686-w64-mingw32\11.1.0\include\stdint.h \
- c:\mingw32\i686-w64-mingw32\include\stdint.h \
  B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_assert.h \
  B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_atomic.h \
  B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_audio.h \
@@ -30,32 +154,12 @@ CMakeFiles/mazeGame.dir/src/gameplayMap.cpp.obj: \
  B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_endian.h \
  B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_mutex.h \
  B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_thread.h \
- c:\mingw32\i686-w64-mingw32\include\process.h \
- c:\mingw32\i686-w64-mingw32\include\corecrt_startup.h \
- c:\mingw32\i686-w64-mingw32\include\sys\types.h \
- c:\mingw32\i686-w64-mingw32\include\_mingw_off_t.h \
  B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_rwops.h \
  B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_clipboard.h \
  B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_cpuinfo.h \
  c:\mingw32\i686-w64-mingw32\include\intrin.h \
  c:\mingw32\i686-w64-mingw32\include\setjmp.h \
  c:\mingw32\i686-w64-mingw32\include\psdk_inc\intrin-impl.h \
- c:\mingw32\include\c++\11.1.0\stdlib.h \
- c:\mingw32\include\c++\11.1.0\cstdlib \
- c:\mingw32\include\c++\11.1.0\i686-w64-mingw32\bits\c++config.h \
- c:\mingw32\include\c++\11.1.0\i686-w64-mingw32\bits\os_defines.h \
- c:\mingw32\include\c++\11.1.0\i686-w64-mingw32\bits\cpu_defines.h \
- c:\mingw32\include\c++\11.1.0\pstl\pstl_config.h \
- c:\mingw32\i686-w64-mingw32\include\stdlib.h \
- c:\mingw32\i686-w64-mingw32\include\corecrt_wstdlib.h \
- c:\mingw32\lib\gcc\i686-w64-mingw32\11.1.0\include-fixed\limits.h \
- c:\mingw32\lib\gcc\i686-w64-mingw32\11.1.0\include-fixed\syslimits.h \
- c:\mingw32\i686-w64-mingw32\include\limits.h \
- c:\mingw32\i686-w64-mingw32\include\sec_api\stdlib_s.h \
- c:\mingw32\i686-w64-mingw32\include\malloc.h \
- c:\mingw32\lib\gcc\i686-w64-mingw32\11.1.0\include\mm_malloc.h \
- c:\mingw32\i686-w64-mingw32\include\errno.h \
- c:\mingw32\include\c++\11.1.0\bits\std_abs.h \
  c:\mingw32\lib\gcc\i686-w64-mingw32\11.1.0\include\x86intrin.h \
  c:\mingw32\lib\gcc\i686-w64-mingw32\11.1.0\include\x86gprintrin.h \
  c:\mingw32\lib\gcc\i686-w64-mingw32\11.1.0\include\ia32intrin.h \
@@ -174,4 +278,142 @@ CMakeFiles/mazeGame.dir/src/gameplayMap.cpp.obj: \
  B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_version.h \
  B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_locale.h \
  B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_misc.h \
- B:\Coding\c++\games\mazeGame\src\textureManager.h
+ B:\Coding\c++\games\mazeGame\src\textureManager.h \
+ B:\Coding\c++\games\mazeGame\src\audioManager.h \
+ c:\mingw32\i686-w64-mingw32\include\windows.h \
+ c:\mingw32\i686-w64-mingw32\include\sdkddkver.h \
+ c:\mingw32\i686-w64-mingw32\include\excpt.h \
+ c:\mingw32\i686-w64-mingw32\include\windef.h \
+ c:\mingw32\i686-w64-mingw32\include\winapifamily.h \
+ c:\mingw32\i686-w64-mingw32\include\minwindef.h \
+ c:\mingw32\i686-w64-mingw32\include\specstrings.h \
+ c:\mingw32\i686-w64-mingw32\include\sal.h \
+ c:\mingw32\i686-w64-mingw32\include\concurrencysal.h \
+ c:\mingw32\i686-w64-mingw32\include\driverspecs.h \
+ c:\mingw32\i686-w64-mingw32\include\winnt.h \
+ c:\mingw32\i686-w64-mingw32\include\_mingw_unicode.h \
+ c:\mingw32\i686-w64-mingw32\include\apiset.h \
+ c:\mingw32\i686-w64-mingw32\include\basetsd.h \
+ c:\mingw32\i686-w64-mingw32\include\guiddef.h \
+ c:\mingw32\i686-w64-mingw32\include\string.h \
+ c:\mingw32\i686-w64-mingw32\include\sec_api\string_s.h \
+ c:\mingw32\i686-w64-mingw32\include\pshpack4.h \
+ c:\mingw32\i686-w64-mingw32\include\poppack.h \
+ c:\mingw32\i686-w64-mingw32\include\pshpack4.h \
+ c:\mingw32\i686-w64-mingw32\include\pshpack2.h \
+ c:\mingw32\i686-w64-mingw32\include\poppack.h \
+ c:\mingw32\i686-w64-mingw32\include\pshpack2.h \
+ c:\mingw32\i686-w64-mingw32\include\pshpack8.h \
+ c:\mingw32\i686-w64-mingw32\include\pshpack8.h \
+ c:\mingw32\i686-w64-mingw32\include\ktmtypes.h \
+ c:\mingw32\i686-w64-mingw32\include\winbase.h \
+ c:\mingw32\i686-w64-mingw32\include\apisetcconv.h \
+ c:\mingw32\i686-w64-mingw32\include\minwinbase.h \
+ c:\mingw32\i686-w64-mingw32\include\bemapiset.h \
+ c:\mingw32\i686-w64-mingw32\include\debugapi.h \
+ c:\mingw32\i686-w64-mingw32\include\errhandlingapi.h \
+ c:\mingw32\i686-w64-mingw32\include\fibersapi.h \
+ c:\mingw32\i686-w64-mingw32\include\fileapi.h \
+ c:\mingw32\i686-w64-mingw32\include\handleapi.h \
+ c:\mingw32\i686-w64-mingw32\include\heapapi.h \
+ c:\mingw32\i686-w64-mingw32\include\ioapiset.h \
+ c:\mingw32\i686-w64-mingw32\include\interlockedapi.h \
+ c:\mingw32\i686-w64-mingw32\include\jobapi.h \
+ c:\mingw32\i686-w64-mingw32\include\libloaderapi.h \
+ c:\mingw32\i686-w64-mingw32\include\memoryapi.h \
+ c:\mingw32\i686-w64-mingw32\include\namedpipeapi.h \
+ c:\mingw32\i686-w64-mingw32\include\namespaceapi.h \
+ c:\mingw32\i686-w64-mingw32\include\processenv.h \
+ c:\mingw32\i686-w64-mingw32\include\processthreadsapi.h \
+ c:\mingw32\i686-w64-mingw32\include\processtopologyapi.h \
+ c:\mingw32\i686-w64-mingw32\include\profileapi.h \
+ c:\mingw32\i686-w64-mingw32\include\realtimeapiset.h \
+ c:\mingw32\i686-w64-mingw32\include\securityappcontainer.h \
+ c:\mingw32\i686-w64-mingw32\include\securitybaseapi.h \
+ c:\mingw32\i686-w64-mingw32\include\synchapi.h \
+ c:\mingw32\i686-w64-mingw32\include\sysinfoapi.h \
+ c:\mingw32\i686-w64-mingw32\include\systemtopologyapi.h \
+ c:\mingw32\i686-w64-mingw32\include\threadpoolapiset.h \
+ c:\mingw32\i686-w64-mingw32\include\threadpoollegacyapiset.h \
+ c:\mingw32\i686-w64-mingw32\include\utilapiset.h \
+ c:\mingw32\i686-w64-mingw32\include\wow64apiset.h \
+ c:\mingw32\i686-w64-mingw32\include\winerror.h \
+ c:\mingw32\i686-w64-mingw32\include\fltwinerror.h \
+ c:\mingw32\i686-w64-mingw32\include\timezoneapi.h \
+ c:\mingw32\i686-w64-mingw32\include\wingdi.h \
+ c:\mingw32\i686-w64-mingw32\include\pshpack1.h \
+ c:\mingw32\i686-w64-mingw32\include\winuser.h \
+ c:\mingw32\i686-w64-mingw32\include\tvout.h \
+ c:\mingw32\i686-w64-mingw32\include\winnls.h \
+ c:\mingw32\i686-w64-mingw32\include\datetimeapi.h \
+ c:\mingw32\i686-w64-mingw32\include\stringapiset.h \
+ c:\mingw32\i686-w64-mingw32\include\wincon.h \
+ c:\mingw32\i686-w64-mingw32\include\winver.h \
+ c:\mingw32\i686-w64-mingw32\include\winreg.h \
+ c:\mingw32\i686-w64-mingw32\include\reason.h \
+ c:\mingw32\i686-w64-mingw32\include\winnetwk.h \
+ c:\mingw32\i686-w64-mingw32\include\wnnc.h \
+ c:\mingw32\i686-w64-mingw32\include\virtdisk.h \
+ c:\mingw32\i686-w64-mingw32\include\cderr.h \
+ c:\mingw32\i686-w64-mingw32\include\dde.h \
+ c:\mingw32\i686-w64-mingw32\include\ddeml.h \
+ c:\mingw32\i686-w64-mingw32\include\dlgs.h \
+ c:\mingw32\i686-w64-mingw32\include\lzexpand.h \
+ c:\mingw32\i686-w64-mingw32\include\mmsystem.h \
+ c:\mingw32\i686-w64-mingw32\include\nb30.h \
+ c:\mingw32\i686-w64-mingw32\include\rpc.h \
+ c:\mingw32\i686-w64-mingw32\include\rpcdce.h \
+ c:\mingw32\i686-w64-mingw32\include\rpcdcep.h \
+ c:\mingw32\i686-w64-mingw32\include\rpcnsi.h \
+ c:\mingw32\i686-w64-mingw32\include\rpcnterr.h \
+ c:\mingw32\i686-w64-mingw32\include\rpcasync.h \
+ c:\mingw32\i686-w64-mingw32\include\shellapi.h \
+ c:\mingw32\i686-w64-mingw32\include\winperf.h \
+ c:\mingw32\i686-w64-mingw32\include\winsock.h \
+ c:\mingw32\i686-w64-mingw32\include\_bsd_types.h \
+ c:\mingw32\i686-w64-mingw32\include\inaddr.h \
+ c:\mingw32\i686-w64-mingw32\include\psdk_inc\_socket_types.h \
+ c:\mingw32\i686-w64-mingw32\include\psdk_inc\_fd_types.h \
+ c:\mingw32\i686-w64-mingw32\include\psdk_inc\_ip_types.h \
+ c:\mingw32\i686-w64-mingw32\include\psdk_inc\_ip_mreq1.h \
+ c:\mingw32\i686-w64-mingw32\include\psdk_inc\_wsadata.h \
+ c:\mingw32\i686-w64-mingw32\include\psdk_inc\_xmitfile.h \
+ c:\mingw32\i686-w64-mingw32\include\psdk_inc\_wsa_errnos.h \
+ c:\mingw32\i686-w64-mingw32\include\wincrypt.h \
+ c:\mingw32\i686-w64-mingw32\include\bcrypt.h \
+ c:\mingw32\i686-w64-mingw32\include\ncrypt.h \
+ c:\mingw32\i686-w64-mingw32\include\dpapi.h \
+ c:\mingw32\i686-w64-mingw32\include\winefs.h \
+ c:\mingw32\i686-w64-mingw32\include\winscard.h \
+ c:\mingw32\i686-w64-mingw32\include\wtypes.h \
+ c:\mingw32\i686-w64-mingw32\include\rpcndr.h \
+ c:\mingw32\i686-w64-mingw32\include\rpcnsip.h \
+ c:\mingw32\i686-w64-mingw32\include\rpcsal.h \
+ c:\mingw32\i686-w64-mingw32\include\ole2.h \
+ c:\mingw32\i686-w64-mingw32\include\objbase.h \
+ c:\mingw32\i686-w64-mingw32\include\combaseapi.h \
+ c:\mingw32\i686-w64-mingw32\include\wtypesbase.h \
+ c:\mingw32\i686-w64-mingw32\include\unknwnbase.h \
+ c:\mingw32\i686-w64-mingw32\include\objidlbase.h \
+ c:\mingw32\i686-w64-mingw32\include\cguid.h \
+ c:\mingw32\i686-w64-mingw32\include\objidl.h \
+ c:\mingw32\i686-w64-mingw32\include\unknwn.h \
+ c:\mingw32\i686-w64-mingw32\include\urlmon.h \
+ c:\mingw32\i686-w64-mingw32\include\oleidl.h \
+ c:\mingw32\i686-w64-mingw32\include\servprov.h \
+ c:\mingw32\i686-w64-mingw32\include\msxml.h \
+ c:\mingw32\i686-w64-mingw32\include\oaidl.h \
+ c:\mingw32\i686-w64-mingw32\include\propidl.h \
+ c:\mingw32\i686-w64-mingw32\include\oleauto.h \
+ c:\mingw32\i686-w64-mingw32\include\winioctl.h \
+ c:\mingw32\i686-w64-mingw32\include\winsmcrd.h \
+ c:\mingw32\i686-w64-mingw32\include\winspool.h \
+ c:\mingw32\i686-w64-mingw32\include\prsht.h \
+ c:\mingw32\i686-w64-mingw32\include\commdlg.h \
+ c:\mingw32\i686-w64-mingw32\include\stralign.h \
+ c:\mingw32\i686-w64-mingw32\include\sec_api\stralign_s.h \
+ c:\mingw32\i686-w64-mingw32\include\winsvc.h \
+ c:\mingw32\i686-w64-mingw32\include\mcx.h \
+ c:\mingw32\i686-w64-mingw32\include\imm.h \
+ B:\Coding\c++\games\mazeGame\src\game.h \
+ B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL.h

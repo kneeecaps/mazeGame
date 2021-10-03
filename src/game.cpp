@@ -2,6 +2,7 @@
 
 #include "game.h"
 #include "textureManager.h"
+#include "audioManager.h"
 #include "map.h"
 #include "gameplayMap.h"
 #include "leaderboard.h"
@@ -114,19 +115,19 @@ void Game::handleEvents()
     switch(event.key.keysym.sym)
     {
     case SDLK_UP:
-      if(gameMap->move(0) == 4)
+      if(gameMap->move(0, money) == 4)
       {
         addMoney();
       }
       break;
     case SDLK_DOWN:
-      if(gameMap->move(1) == 4)
+      if(gameMap->move(1, money) == 4)
       {
         addMoney();
       }
       break;
     case SDLK_RIGHT:
-      switch(gameMap->move(2))
+      switch(gameMap->move(2, money))
       {
       case 3:
         gameComplete();
@@ -136,7 +137,7 @@ void Game::handleEvents()
       }
       break;
     case SDLK_LEFT:
-      if(gameMap->move(3) == 4)
+      if(gameMap->move(3, money) == 4)
       {
         addMoney();
       }
@@ -146,14 +147,14 @@ void Game::handleEvents()
     } //switch(event.key.keysym.sym)
   } //switch(event.type)
 } //handleEvents()
+void Game::addMoney()
+{
+  money++;
+  audioManager::playSound("assets/coinPickup.wav");
+}
 void Game::update()
 {
   frameCount++;
-
-  if(money == 7)
-  {
-    gameMap->removeEnemy();
-  }
 } //update()
 void Game::render()
 {

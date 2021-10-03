@@ -16,11 +16,11 @@ public:
 
   bool running() {return isRunning;}
 
-  void addMoney() {money++;}
+  void addMoney();
 
   int getTime() {return frameCount / 60;}
   int getMoney() {return money;}
-  int getScore() {return (((money * 3) + (100 - getTime())));}
+  int getScore() {return (((money * 5) + (100 - getTime())));}
 
   static SDL_Renderer* renderer;
 private:

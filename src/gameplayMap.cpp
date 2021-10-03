@@ -1,5 +1,10 @@
+#include <iostream>
+
 #include "gameplayMap.h"
 #include "textureManager.h"
+#include "audioManager.h"
+
+#include "game.h"
 
 gameplayMap::gameplayMap()
 {
@@ -76,50 +81,87 @@ void gameplayMap::drawMap()
   } //int row = 0; row < 20; row++
 } //drawMap()
 
+void gameplayMap::checkEnemy(int& money)
+{
+  if(money >= 3)
+  {
+    money = money - 3;
+    removeEnemy();
+  }
+  else
+  {
+    std::cout << "You need to pay 3 coins to pass\n";
+  }
+}
 void gameplayMap::removeEnemy()
 {
   gameplayMap1[9][11] = 0;
 }
 
-int gameplayMap::move(int direction)
+int gameplayMap::move(int direction, int& money)
 {
   gameplayMap1[playerY][playerX] = 0;
 
   int checkedMove = 0;
+  bool moved = false;
 
   switch(direction)
   {
   case 0:
     checkedMove = checkMove(0);
-    if(checkMove(0) != 1 && checkMove(0) != 6)
+    if(checkedMove != 1 && checkedMove != 6)
     {
       playerY--;
+      moved = true;
+    }
+    else if(checkedMove == 6)
+    {
+      checkEnemy(money);
     }
     break;
   case 1:
     checkedMove = checkMove(1);
-    if(checkMove(1) != 1 && checkMove(1) != 6)
+    if(checkedMove != 1 && checkedMove != 6)
     {
       playerY++;
+      moved = true;
+    }
+    else if(checkedMove == 6)
+    {
+      checkEnemy(money);
     }
     break;
   case 2:
     checkedMove = checkMove(2);
-    if(checkMove(2) != 1 && checkMove(2) != 6)
+    if(checkedMove != 1 && checkedMove != 6)
     {
       playerX++;
+      moved = true;
+    }
+    else if(checkedMove == 6)
+    {
+      checkEnemy(money);
     }
     break;
   case 3:
     checkedMove = checkMove(3);
-    if(checkMove(3) != 1 && checkMove(3) != 6 && checkMove(3) != 2)
+    if(checkedMove != 1 && checkedMove != 6 && checkedMove != 2)
     {
       playerX--;
+      moved = true;
+    }
+    else if(checkedMove == 6)
+    {
+      checkEnemy(money);
     }
     break;
   default:
     break;
   } //switch(direction)
+  if(moved)
+  {
+    audioManager::playSound("assets/dirtStep.wav");
+  }
   return checkedMove;
 } //move(int direction)
 

@@ -9,9 +9,10 @@ public:
   void loadMap(int arr[20][25]);
   void drawMap();
 
+  void checkEnemy(int& money);
   void removeEnemy();
 
-  int move(int direction);
+  int move(int direction, int& money);
   int checkMove(int direction);
 private:
   int gameplayMap1[20][25] = {
