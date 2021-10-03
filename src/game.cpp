@@ -6,7 +6,7 @@
 #include "gameplayMap.h"
 #include "leaderboard.h"
 
-Map* map;
+Map* map = nullptr;
 gameplayMap* gameMap = nullptr;
 Leaderboard* leaderboard = nullptr;
 
