@@ -7,8 +7,8 @@
 #include "leaderboard.h"
 
 Map* map;
-gameplayMap* gameMap;
-Leaderboard* leaderboard;
+gameplayMap* gameMap = nullptr;
+Leaderboard* leaderboard = nullptr;
 
 SDL_Renderer* Game::renderer = nullptr;
 
