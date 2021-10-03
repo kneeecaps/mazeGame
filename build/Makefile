@@ -129,6 +129,30 @@ mazeGame/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\mazeGame.dir\build.make CMakeFiles/mazeGame.dir/build
 .PHONY : mazeGame/fast
 
+src/audioManager.obj: src/audioManager.cpp.obj
+.PHONY : src/audioManager.obj
+
+# target to build an object file
+src/audioManager.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\mazeGame.dir\build.make CMakeFiles/mazeGame.dir/src/audioManager.cpp.obj
+.PHONY : src/audioManager.cpp.obj
+
+src/audioManager.i: src/audioManager.cpp.i
+.PHONY : src/audioManager.i
+
+# target to preprocess a source file
+src/audioManager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\mazeGame.dir\build.make CMakeFiles/mazeGame.dir/src/audioManager.cpp.i
+.PHONY : src/audioManager.cpp.i
+
+src/audioManager.s: src/audioManager.cpp.s
+.PHONY : src/audioManager.s
+
+# target to generate assembly for a file
+src/audioManager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\mazeGame.dir\build.make CMakeFiles/mazeGame.dir/src/audioManager.cpp.s
+.PHONY : src/audioManager.cpp.s
+
 src/game.obj: src/game.cpp.obj
 .PHONY : src/game.obj
 
@@ -282,6 +306,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... mazeGame
+	@echo ... src/audioManager.obj
+	@echo ... src/audioManager.i
+	@echo ... src/audioManager.s
 	@echo ... src/game.obj
 	@echo ... src/game.i
 	@echo ... src/game.s

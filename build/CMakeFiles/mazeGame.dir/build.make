@@ -68,11 +68,26 @@ include CMakeFiles/mazeGame.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/mazeGame.dir/flags.make
 
+CMakeFiles/mazeGame.dir/src/audioManager.cpp.obj: CMakeFiles/mazeGame.dir/flags.make
+CMakeFiles/mazeGame.dir/src/audioManager.cpp.obj: CMakeFiles/mazeGame.dir/includes_CXX.rsp
+CMakeFiles/mazeGame.dir/src/audioManager.cpp.obj: ../src/audioManager.cpp
+CMakeFiles/mazeGame.dir/src/audioManager.cpp.obj: CMakeFiles/mazeGame.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=B:\Coding\c++\games\mazeGame\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/mazeGame.dir/src/audioManager.cpp.obj"
+	C:\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mazeGame.dir/src/audioManager.cpp.obj -MF CMakeFiles\mazeGame.dir\src\audioManager.cpp.obj.d -o CMakeFiles\mazeGame.dir\src\audioManager.cpp.obj -c B:\Coding\c++\games\mazeGame\src\audioManager.cpp
+
+CMakeFiles/mazeGame.dir/src/audioManager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mazeGame.dir/src/audioManager.cpp.i"
+	C:\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E B:\Coding\c++\games\mazeGame\src\audioManager.cpp > CMakeFiles\mazeGame.dir\src\audioManager.cpp.i
+
+CMakeFiles/mazeGame.dir/src/audioManager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mazeGame.dir/src/audioManager.cpp.s"
+	C:\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S B:\Coding\c++\games\mazeGame\src\audioManager.cpp -o CMakeFiles\mazeGame.dir\src\audioManager.cpp.s
+
 CMakeFiles/mazeGame.dir/src/game.cpp.obj: CMakeFiles/mazeGame.dir/flags.make
 CMakeFiles/mazeGame.dir/src/game.cpp.obj: CMakeFiles/mazeGame.dir/includes_CXX.rsp
 CMakeFiles/mazeGame.dir/src/game.cpp.obj: ../src/game.cpp
 CMakeFiles/mazeGame.dir/src/game.cpp.obj: CMakeFiles/mazeGame.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=B:\Coding\c++\games\mazeGame\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/mazeGame.dir/src/game.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=B:\Coding\c++\games\mazeGame\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/mazeGame.dir/src/game.cpp.obj"
 	C:\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mazeGame.dir/src/game.cpp.obj -MF CMakeFiles\mazeGame.dir\src\game.cpp.obj.d -o CMakeFiles\mazeGame.dir\src\game.cpp.obj -c B:\Coding\c++\games\mazeGame\src\game.cpp
 
 CMakeFiles/mazeGame.dir/src/game.cpp.i: cmake_force
@@ -87,7 +102,7 @@ CMakeFiles/mazeGame.dir/src/gameplayMap.cpp.obj: CMakeFiles/mazeGame.dir/flags.m
 CMakeFiles/mazeGame.dir/src/gameplayMap.cpp.obj: CMakeFiles/mazeGame.dir/includes_CXX.rsp
 CMakeFiles/mazeGame.dir/src/gameplayMap.cpp.obj: ../src/gameplayMap.cpp
 CMakeFiles/mazeGame.dir/src/gameplayMap.cpp.obj: CMakeFiles/mazeGame.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=B:\Coding\c++\games\mazeGame\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/mazeGame.dir/src/gameplayMap.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=B:\Coding\c++\games\mazeGame\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/mazeGame.dir/src/gameplayMap.cpp.obj"
 	C:\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mazeGame.dir/src/gameplayMap.cpp.obj -MF CMakeFiles\mazeGame.dir\src\gameplayMap.cpp.obj.d -o CMakeFiles\mazeGame.dir\src\gameplayMap.cpp.obj -c B:\Coding\c++\games\mazeGame\src\gameplayMap.cpp
 
 CMakeFiles/mazeGame.dir/src/gameplayMap.cpp.i: cmake_force
@@ -102,7 +117,7 @@ CMakeFiles/mazeGame.dir/src/leaderboard.cpp.obj: CMakeFiles/mazeGame.dir/flags.m
 CMakeFiles/mazeGame.dir/src/leaderboard.cpp.obj: CMakeFiles/mazeGame.dir/includes_CXX.rsp
 CMakeFiles/mazeGame.dir/src/leaderboard.cpp.obj: ../src/leaderboard.cpp
 CMakeFiles/mazeGame.dir/src/leaderboard.cpp.obj: CMakeFiles/mazeGame.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=B:\Coding\c++\games\mazeGame\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/mazeGame.dir/src/leaderboard.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=B:\Coding\c++\games\mazeGame\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/mazeGame.dir/src/leaderboard.cpp.obj"
 	C:\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mazeGame.dir/src/leaderboard.cpp.obj -MF CMakeFiles\mazeGame.dir\src\leaderboard.cpp.obj.d -o CMakeFiles\mazeGame.dir\src\leaderboard.cpp.obj -c B:\Coding\c++\games\mazeGame\src\leaderboard.cpp
 
 CMakeFiles/mazeGame.dir/src/leaderboard.cpp.i: cmake_force
@@ -117,7 +132,7 @@ CMakeFiles/mazeGame.dir/src/main.cpp.obj: CMakeFiles/mazeGame.dir/flags.make
 CMakeFiles/mazeGame.dir/src/main.cpp.obj: CMakeFiles/mazeGame.dir/includes_CXX.rsp
 CMakeFiles/mazeGame.dir/src/main.cpp.obj: ../src/main.cpp
 CMakeFiles/mazeGame.dir/src/main.cpp.obj: CMakeFiles/mazeGame.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=B:\Coding\c++\games\mazeGame\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/mazeGame.dir/src/main.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=B:\Coding\c++\games\mazeGame\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/mazeGame.dir/src/main.cpp.obj"
 	C:\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mazeGame.dir/src/main.cpp.obj -MF CMakeFiles\mazeGame.dir\src\main.cpp.obj.d -o CMakeFiles\mazeGame.dir\src\main.cpp.obj -c B:\Coding\c++\games\mazeGame\src\main.cpp
 
 CMakeFiles/mazeGame.dir/src/main.cpp.i: cmake_force
@@ -132,7 +147,7 @@ CMakeFiles/mazeGame.dir/src/map.cpp.obj: CMakeFiles/mazeGame.dir/flags.make
 CMakeFiles/mazeGame.dir/src/map.cpp.obj: CMakeFiles/mazeGame.dir/includes_CXX.rsp
 CMakeFiles/mazeGame.dir/src/map.cpp.obj: ../src/map.cpp
 CMakeFiles/mazeGame.dir/src/map.cpp.obj: CMakeFiles/mazeGame.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=B:\Coding\c++\games\mazeGame\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/mazeGame.dir/src/map.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=B:\Coding\c++\games\mazeGame\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/mazeGame.dir/src/map.cpp.obj"
 	C:\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mazeGame.dir/src/map.cpp.obj -MF CMakeFiles\mazeGame.dir\src\map.cpp.obj.d -o CMakeFiles\mazeGame.dir\src\map.cpp.obj -c B:\Coding\c++\games\mazeGame\src\map.cpp
 
 CMakeFiles/mazeGame.dir/src/map.cpp.i: cmake_force
@@ -147,7 +162,7 @@ CMakeFiles/mazeGame.dir/src/textureManager.cpp.obj: CMakeFiles/mazeGame.dir/flag
 CMakeFiles/mazeGame.dir/src/textureManager.cpp.obj: CMakeFiles/mazeGame.dir/includes_CXX.rsp
 CMakeFiles/mazeGame.dir/src/textureManager.cpp.obj: ../src/textureManager.cpp
 CMakeFiles/mazeGame.dir/src/textureManager.cpp.obj: CMakeFiles/mazeGame.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=B:\Coding\c++\games\mazeGame\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/mazeGame.dir/src/textureManager.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=B:\Coding\c++\games\mazeGame\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/mazeGame.dir/src/textureManager.cpp.obj"
 	C:\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mazeGame.dir/src/textureManager.cpp.obj -MF CMakeFiles\mazeGame.dir\src\textureManager.cpp.obj.d -o CMakeFiles\mazeGame.dir\src\textureManager.cpp.obj -c B:\Coding\c++\games\mazeGame\src\textureManager.cpp
 
 CMakeFiles/mazeGame.dir/src/textureManager.cpp.i: cmake_force
@@ -160,6 +175,7 @@ CMakeFiles/mazeGame.dir/src/textureManager.cpp.s: cmake_force
 
 # Object files for target mazeGame
 mazeGame_OBJECTS = \
+"CMakeFiles/mazeGame.dir/src/audioManager.cpp.obj" \
 "CMakeFiles/mazeGame.dir/src/game.cpp.obj" \
 "CMakeFiles/mazeGame.dir/src/gameplayMap.cpp.obj" \
 "CMakeFiles/mazeGame.dir/src/leaderboard.cpp.obj" \
@@ -171,6 +187,7 @@ mazeGame_OBJECTS = \
 mazeGame_EXTERNAL_OBJECTS = \
 "B:/Coding/c++/games/mazeGame/src/mazeGame.o"
 
+../mazeGame.exe: CMakeFiles/mazeGame.dir/src/audioManager.cpp.obj
 ../mazeGame.exe: CMakeFiles/mazeGame.dir/src/game.cpp.obj
 ../mazeGame.exe: CMakeFiles/mazeGame.dir/src/gameplayMap.cpp.obj
 ../mazeGame.exe: CMakeFiles/mazeGame.dir/src/leaderboard.cpp.obj
@@ -186,7 +203,7 @@ mazeGame_EXTERNAL_OBJECTS = \
 ../mazeGame.exe: CMakeFiles/mazeGame.dir/linklibs.rsp
 ../mazeGame.exe: CMakeFiles/mazeGame.dir/objects1.rsp
 ../mazeGame.exe: CMakeFiles/mazeGame.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=B:\Coding\c++\games\mazeGame\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable ..\mazeGame.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=B:\Coding\c++\games\mazeGame\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable ..\mazeGame.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\mazeGame.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

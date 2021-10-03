@@ -1,1 +1,1 @@
- -lmingw32 ../lib/SDL2/lib/libSDL2_image.a ../lib/SDL2/lib/libSDL2_image.dll.a ../lib/SDL2/lib/libSDL2main.a ../lib/SDL2/lib/libSDL2.dll.a -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+ -lmingw32 -lWinmm ../lib/SDL2/lib/libSDL2_image.a ../lib/SDL2/lib/libSDL2_image.dll.a ../lib/SDL2/lib/libSDL2main.a ../lib/SDL2/lib/libSDL2.dll.a -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 

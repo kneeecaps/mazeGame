@@ -3,6 +3,8 @@ file(REMOVE_RECURSE
   "../mazeGame.exe"
   "../mazeGame.exe.manifest"
   "../mazeGame.pdb"
+  "CMakeFiles/mazeGame.dir/src/audioManager.cpp.obj"
+  "CMakeFiles/mazeGame.dir/src/audioManager.cpp.obj.d"
   "CMakeFiles/mazeGame.dir/src/game.cpp.obj"
   "CMakeFiles/mazeGame.dir/src/game.cpp.obj.d"
   "CMakeFiles/mazeGame.dir/src/gameplayMap.cpp.obj"

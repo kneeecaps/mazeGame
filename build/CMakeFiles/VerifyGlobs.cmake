@@ -5,6 +5,7 @@ cmake_policy(SET CMP0009 NEW)
 # projectSRC at CMakeLists.txt:5 (file)
 file(GLOB NEW_GLOB LIST_DIRECTORIES true "B:/Coding/c++/games/mazeGame/src/*.cpp")
 set(OLD_GLOB
+  "B:/Coding/c++/games/mazeGame/src/audioManager.cpp"
   "B:/Coding/c++/games/mazeGame/src/game.cpp"
   "B:/Coding/c++/games/mazeGame/src/gameplayMap.cpp"
   "B:/Coding/c++/games/mazeGame/src/leaderboard.cpp"
@@ -20,6 +21,7 @@ endif()
 # projectSRC at CMakeLists.txt:5 (file)
 file(GLOB NEW_GLOB LIST_DIRECTORIES true "B:/Coding/c++/games/mazeGame/src/*.h")
 set(OLD_GLOB
+  "B:/Coding/c++/games/mazeGame/src/audioManager.h"
   "B:/Coding/c++/games/mazeGame/src/game.h"
   "B:/Coding/c++/games/mazeGame/src/gameplayMap.h"
   "B:/Coding/c++/games/mazeGame/src/leaderboard.h"
