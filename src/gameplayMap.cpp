@@ -97,7 +97,17 @@ void GamePlayMap::checkEnemy(int& money)
 
 void GamePlayMap::removeEnemy()
 {
-  map[9][11] = 0;
+  for(int row = 0; row < 20; row++)
+  {
+    for(int column = 0; column < 25; column++)
+    {
+      if(map[row][column] == 6)
+      {
+        map[row][column] = 0;
+        break;
+      }
+    }
+  }
 }
 
 int GamePlayMap::move(int direction, int& money)
