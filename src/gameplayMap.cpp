@@ -62,6 +62,7 @@ void gameplayMap::loadMap(int arr[20][25])
     } //int column = 0; column < 25; column++
   } //int row = 0; row < 20; row++
 } //loadMap(int arr[20][25])
+
 void gameplayMap::drawMap()
 {
   loadMap(gameplayMap1);
@@ -116,6 +117,7 @@ void gameplayMap::checkEnemy(int& money)
     std::cout << "You need to pay 3 coins to pass\n";
   }
 }
+
 void gameplayMap::removeEnemy()
 {
   gameplayMap1[9][11] = 0;

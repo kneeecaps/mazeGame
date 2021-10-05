@@ -52,6 +52,7 @@ void Map::loadMap(int arr[20][25])
     } //int column = 0; column < 25; column++
   } //int row = 0; row < 20; row++
 } //loadMap(int arr[20][25])
+
 void Map::drawMap()
 {
   int type = 0;

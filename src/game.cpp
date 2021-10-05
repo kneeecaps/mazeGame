@@ -148,15 +148,18 @@ void Game::handleEvents()
     } //switch(event.key.keysym.sym)
   } //switch(event.type)
 } //handleEvents()
+
 void Game::addMoney()
 {
   money++;
   audioManager::playSound("assets/coinPickup.wav");
-}
+} //addMoney()
+
 void Game::update()
 {
   frameCount++;
 } //update()
+
 void Game::render()
 {
   SDL_RenderClear(renderer);
@@ -201,6 +204,7 @@ void Game::render()
 
   SDL_RenderPresent(renderer);
 } //render()
+
 void Game::clean()
 {
   leaderboard->exportLeaderboard();

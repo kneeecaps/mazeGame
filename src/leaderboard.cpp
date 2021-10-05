@@ -28,6 +28,7 @@ Leaderboard::Leaderboard()
 
   noLeaderboardTxtDestRect.x = noLeaderboardTxtDestRect.y = 32;
 }
+
 Leaderboard::~Leaderboard()
 {
 
@@ -144,6 +145,7 @@ void Leaderboard::saveToLeaderboard(std::string name, int time, int money, int s
 
   leaderboardFile << tmpLeaderboardPos.name << '*' << tmpLeaderboardPos.time << '#' << tmpLeaderboardPos.money << '@' << tmpLeaderboardPos.score << "\n" ;
 } //saveToLeaderboard(std::string name, int time, int money, int score)
+
 void Leaderboard::saveToLeaderboard(leaderboardPos tmpLeaderboardPos)
 {
   std::ofstream leaderboardFile;
@@ -174,5 +176,5 @@ void Leaderboard::exportLeaderboard()
     {
       break;
     }
-  }
+  } //leaderboardPos i : leaderboard
 } //exportLeaderboard()
