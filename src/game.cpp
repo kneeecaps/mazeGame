@@ -76,21 +76,21 @@ void Game::init(const char* title, int xpos, int ypos, int width, int height, bo
 
 void Game::levelComplete()
 {
+  totalMoney += money;
   if(mapList->getLevel() == 2)
   {
     gameComplete();
   }
   else
   {
-    totalMoney += money;
-    money = 0;
+    audioManager::playSound("assets/gameComplete.wav");
+    money = -1;
     mapList->addLevel();
   }
 } //levelComplete()
 
 void Game::gameComplete()
 {
-  audioManager::playSound("assets/gameComplete.wav");
   std::cout << "\nYour time: " << getTime() << "\n";
   std::cout << "Your score: " << getScore() << "\n\n";
 

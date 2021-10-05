@@ -20,7 +20,7 @@ public:
 
   int getTime() {return frameCount / 60;}
   int getMoney() {return totalMoney;}
-  int getScore() {return (((totalMoney * 4) + (100 - getTime())));}
+  int getScore() {return (((totalMoney * 4) + (250 - getTime())));}
 
   static SDL_Renderer* renderer;
 private:
