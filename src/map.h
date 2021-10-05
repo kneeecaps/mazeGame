@@ -4,7 +4,7 @@
 class Map
 {
 public:
-  Map(ViewMap tmpViewMap, GamePlayMap tmpGameMap);
+  Map(int tmpViewMap[20][25], int tmpGameMap[20][25]);
   ~Map();
 
   void render();

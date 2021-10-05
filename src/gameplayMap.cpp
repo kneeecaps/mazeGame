@@ -6,29 +6,6 @@
 
 #include "game.h"
 
-int gameplayMap[20][25] = {
-  {1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,3},
-  {1,0,0,0,0,0,1,1,1,1,0,0,0,0,0,1,0,0,0,0,0,0,1,0,1},
-  {1,0,1,0,1,0,0,0,1,1,0,1,0,1,0,1,0,1,1,1,1,0,1,0,1},
-  {1,0,1,0,1,1,1,0,1,1,1,1,0,1,0,1,0,0,0,0,1,0,1,0,1},
-  {1,0,1,0,0,4,1,0,0,0,0,1,0,1,0,1,1,1,1,0,1,0,1,0,1},
-  {1,0,1,1,1,1,1,0,1,1,0,1,0,1,0,0,0,0,0,0,1,0,1,0,1},
-  {1,0,1,0,0,0,0,0,1,1,4,1,0,1,1,1,1,1,1,1,1,0,1,0,1},
-  {1,0,1,0,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,1,0,1,0,1},
-  {1,0,1,0,1,4,0,0,0,1,1,0,0,1,1,1,1,1,1,0,1,0,1,0,1},
-  {1,0,1,0,1,1,1,1,0,1,1,6,1,1,0,0,0,0,1,0,1,0,0,0,1},
-  {1,0,1,0,1,0,0,0,0,1,1,0,1,1,0,1,1,0,1,0,1,1,1,1,1},
-  {1,0,1,0,1,0,1,0,1,1,1,0,1,1,0,1,1,0,1,0,0,0,0,0,1},
-  {1,0,1,0,0,0,1,0,0,0,0,0,1,1,0,1,1,0,1,1,1,1,1,0,1},
-  {1,0,1,1,1,1,1,1,0,1,1,0,1,0,0,1,1,0,0,0,0,0,1,0,1},
-  {1,0,0,0,0,0,0,1,0,1,1,0,0,0,1,1,1,1,1,0,1,4,1,0,1},
-  {1,0,1,0,1,1,0,1,0,1,1,1,1,1,1,0,4,0,1,0,1,1,1,0,1},
-  {1,0,1,0,0,0,1,1,0,1,0,0,0,4,1,0,0,0,0,0,0,0,0,0,1},
-  {1,0,1,1,1,0,1,1,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1,0,1},
-  {1,0,1,4,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1},
-  {2,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1}
-};
-
 GamePlayMap::GamePlayMap()
 {
   player = textureManager::loadTexture("assets/player.png");
@@ -36,8 +13,6 @@ GamePlayMap::GamePlayMap()
   startFlag = textureManager::loadTexture("assets/startFlag.png");
   endFlag = textureManager::loadTexture("assets/endFlag.png");
   coin = textureManager::loadTexture("assets/coin.png");
-
-  loadMap(gameplayMap);
 
   srcRect.x = srcRect.y = 0;
   srcRect.w = destRect.w = 32;
@@ -52,7 +27,7 @@ GamePlayMap::~GamePlayMap()
 
 void GamePlayMap::loadMap(int arr[20][25])
 {
-  gameplayMap[playerY][playerX] = 5;
+  arr[playerY][playerX] = 5;
 
   for(int row = 0; row < 20; row++)
   {
@@ -65,7 +40,8 @@ void GamePlayMap::loadMap(int arr[20][25])
 
 void GamePlayMap::drawMap()
 {
-  loadMap(gameplayMap);
+  loadMap(map);
+
   int type = 0;
 
   for(int row = 0; row < 20; row++)
@@ -120,12 +96,12 @@ void GamePlayMap::checkEnemy(int& money)
 
 void GamePlayMap::removeEnemy()
 {
-  gameplayMap[9][11] = 0;
+  map[9][11] = 0;
 }
 
 int GamePlayMap::move(int direction, int& money)
 {
-  gameplayMap[playerY][playerX] = 0;
+  map[playerY][playerX] = 0;
 
   int checkedMove = 0;
   bool moved = false;
@@ -199,25 +175,25 @@ int GamePlayMap::checkMove(int direction)
     {
       return 1;
     }
-    return gameplayMap[playerY - 1][playerX];
+    return map[playerY - 1][playerX];
   case 1:
     if(playerY + 1 > 19)
     {
       return 1;
     }
-    return gameplayMap[playerY + 1][playerX];
+    return map[playerY + 1][playerX];
   case 2:
     if(playerX + 1 > 24)
     {
       return 1;
     }
-    return gameplayMap[playerY][playerX + 1];
+    return map[playerY][playerX + 1];
   case 3:
     if(playerX - 1 < 0)
     {
       return 1;
     }
-    return gameplayMap[playerY][playerX - 1];
+    return map[playerY][playerX - 1];
   default:
     break;
   } //switch(direction)

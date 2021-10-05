@@ -1,9 +1,9 @@
 #include "map.h"
 
-Map::Map(ViewMap tmpViewMap, GamePlayMap tmpGameMap)
+Map::Map(int tmpViewMap[20][25], int tmpGameMap[20][25])
 {
- gameMap = tmpGameMap;
- viewMap = tmpViewMap;
+ gameMap.loadMap(tmpGameMap);
+ viewMap.loadMap(tmpViewMap);
 }
 Map::~Map()
 {
