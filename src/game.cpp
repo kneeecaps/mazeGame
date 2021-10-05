@@ -79,6 +79,7 @@ void Game::init(const char* title, int xpos, int ypos, int width, int height, bo
 
 void Game::gameComplete()
 {
+  audioManager::playSound("assets/gameComplete.wav");
   std::cout << "\nYour time: " << getTime() << "\n";
   std::cout << "Your score: " << getScore() << "\n\n";
 
