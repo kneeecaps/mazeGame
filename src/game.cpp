@@ -76,6 +76,8 @@ void Game::init(const char* title, int xpos, int ypos, int width, int height, bo
 
 void Game::levelComplete()
 {
+  audioManager::playSound("assets/levelComplete.wav");
+
   totalMoney += money;
   if(mapList->getLevel() == 2)
   {
@@ -83,7 +85,6 @@ void Game::levelComplete()
   }
   else
   {
-    audioManager::playSound("assets/gameComplete.wav");
     money = -1;
     mapList->addLevel();
   }
