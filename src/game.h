@@ -19,17 +19,19 @@ public:
   void addMoney();
 
   int getTime() {return frameCount / 60;}
-  int getMoney() {return money;}
-  int getScore() {return (((money * 4) + (100 - getTime())));}
+  int getMoney() {return totalMoney;}
+  int getScore() {return (((totalMoney * 4) + (100 - getTime())));}
 
   static SDL_Renderer* renderer;
 private:
+  void levelComplete();
   void gameComplete();
   bool leaderboardShown = false;
 
   bool isRunning;
   int frameCount = 0;
 
+  int totalMoney = 0;
   int money = 0;
   SDL_Rect moneySrcRect;
   SDL_Rect moneyDestRect;

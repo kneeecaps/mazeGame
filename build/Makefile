@@ -273,6 +273,30 @@ src/map.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\mazeGame.dir\build.make CMakeFiles/mazeGame.dir/src/map.cpp.s
 .PHONY : src/map.cpp.s
 
+src/mapList.obj: src/mapList.cpp.obj
+.PHONY : src/mapList.obj
+
+# target to build an object file
+src/mapList.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\mazeGame.dir\build.make CMakeFiles/mazeGame.dir/src/mapList.cpp.obj
+.PHONY : src/mapList.cpp.obj
+
+src/mapList.i: src/mapList.cpp.i
+.PHONY : src/mapList.i
+
+# target to preprocess a source file
+src/mapList.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\mazeGame.dir\build.make CMakeFiles/mazeGame.dir/src/mapList.cpp.i
+.PHONY : src/mapList.cpp.i
+
+src/mapList.s: src/mapList.cpp.s
+.PHONY : src/mapList.s
+
+# target to generate assembly for a file
+src/mapList.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\mazeGame.dir\build.make CMakeFiles/mazeGame.dir/src/mapList.cpp.s
+.PHONY : src/mapList.cpp.s
+
 src/textureManager.obj: src/textureManager.cpp.obj
 .PHONY : src/textureManager.obj
 
@@ -348,6 +372,9 @@ help:
 	@echo ... src/map.obj
 	@echo ... src/map.i
 	@echo ... src/map.s
+	@echo ... src/mapList.obj
+	@echo ... src/mapList.i
+	@echo ... src/mapList.s
 	@echo ... src/textureManager.obj
 	@echo ... src/textureManager.i
 	@echo ... src/textureManager.s

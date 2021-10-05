@@ -77,6 +77,7 @@ void GamePlayMap::drawMap()
       default:
         break;
       } //switch(type)
+      std::cout << SDL_GetError();
     } //int column = 0; column < 25; column++
   } //int row = 0; row < 20; row++
 } //drawMap()

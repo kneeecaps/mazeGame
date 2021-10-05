@@ -11,6 +11,7 @@ set(OLD_GLOB
   "B:/Coding/c++/games/mazeGame/src/leaderboard.cpp"
   "B:/Coding/c++/games/mazeGame/src/main.cpp"
   "B:/Coding/c++/games/mazeGame/src/map.cpp"
+  "B:/Coding/c++/games/mazeGame/src/mapList.cpp"
   "B:/Coding/c++/games/mazeGame/src/textureManager.cpp"
   "B:/Coding/c++/games/mazeGame/src/viewmap.cpp"
   )
@@ -27,6 +28,7 @@ set(OLD_GLOB
   "B:/Coding/c++/games/mazeGame/src/gameplayMap.h"
   "B:/Coding/c++/games/mazeGame/src/leaderboard.h"
   "B:/Coding/c++/games/mazeGame/src/map.h"
+  "B:/Coding/c++/games/mazeGame/src/mapList.h"
   "B:/Coding/c++/games/mazeGame/src/textureManager.h"
   "B:/Coding/c++/games/mazeGame/src/viewMap.h"
   )
