@@ -1,12 +1,12 @@
 #include <iostream>
 
-#include "gameplayMap.h"
+#include "GamePlayMap.h"
 #include "textureManager.h"
 #include "audioManager.h"
 
 #include "game.h"
 
-int gameplayMap1[20][25] = {
+int gameplayMap[20][25] = {
   {1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,3},
   {1,0,0,0,0,0,1,1,1,1,0,0,0,0,0,1,0,0,0,0,0,0,1,0,1},
   {1,0,1,0,1,0,0,0,1,1,0,1,0,1,0,1,0,1,1,1,1,0,1,0,1},
@@ -29,7 +29,7 @@ int gameplayMap1[20][25] = {
   {2,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1}
 };
 
-gameplayMap::gameplayMap()
+GamePlayMap::GamePlayMap()
 {
   player = textureManager::loadTexture("assets/player.png");
   enemy = textureManager::loadTexture("assets/enemy.png");
@@ -37,22 +37,22 @@ gameplayMap::gameplayMap()
   endFlag = textureManager::loadTexture("assets/endFlag.png");
   coin = textureManager::loadTexture("assets/coin.png");
 
-  loadMap(gameplayMap1);
+  loadMap(gameplayMap);
 
   srcRect.x = srcRect.y = 0;
   srcRect.w = destRect.w = 32;
   srcRect.h = destRect.h = 32;
 
   destRect.x = destRect.y = 0;
-} //gameplayMap()
-gameplayMap::~gameplayMap()
+} //GamePlayMap()
+GamePlayMap::~GamePlayMap()
 {
 
 }
 
-void gameplayMap::loadMap(int arr[20][25])
+void GamePlayMap::loadMap(int arr[20][25])
 {
-  gameplayMap1[playerY][playerX] = 5;
+  gameplayMap[playerY][playerX] = 5;
 
   for(int row = 0; row < 20; row++)
   {
@@ -63,9 +63,9 @@ void gameplayMap::loadMap(int arr[20][25])
   } //int row = 0; row < 20; row++
 } //loadMap(int arr[20][25])
 
-void gameplayMap::drawMap()
+void GamePlayMap::drawMap()
 {
-  loadMap(gameplayMap1);
+  loadMap(gameplayMap);
   int type = 0;
 
   for(int row = 0; row < 20; row++)
@@ -105,7 +105,7 @@ void gameplayMap::drawMap()
   } //int row = 0; row < 20; row++
 } //drawMap()
 
-void gameplayMap::checkEnemy(int& money)
+void GamePlayMap::checkEnemy(int& money)
 {
   if(money >= 3)
   {
@@ -118,14 +118,14 @@ void gameplayMap::checkEnemy(int& money)
   }
 }
 
-void gameplayMap::removeEnemy()
+void GamePlayMap::removeEnemy()
 {
-  gameplayMap1[9][11] = 0;
+  gameplayMap[9][11] = 0;
 }
 
-int gameplayMap::move(int direction, int& money)
+int GamePlayMap::move(int direction, int& money)
 {
-  gameplayMap1[playerY][playerX] = 0;
+  gameplayMap[playerY][playerX] = 0;
 
   int checkedMove = 0;
   bool moved = false;
@@ -190,7 +190,7 @@ int gameplayMap::move(int direction, int& money)
   return checkedMove;
 } //move(int direction)
 
-int gameplayMap::checkMove(int direction)
+int GamePlayMap::checkMove(int direction)
 {
   switch(direction)
   {
@@ -199,25 +199,25 @@ int gameplayMap::checkMove(int direction)
     {
       return 1;
     }
-    return gameplayMap1[playerY - 1][playerX];
+    return gameplayMap[playerY - 1][playerX];
   case 1:
     if(playerY + 1 > 19)
     {
       return 1;
     }
-    return gameplayMap1[playerY + 1][playerX];
+    return gameplayMap[playerY + 1][playerX];
   case 2:
     if(playerX + 1 > 24)
     {
       return 1;
     }
-    return gameplayMap1[playerY][playerX + 1];
+    return gameplayMap[playerY][playerX + 1];
   case 3:
     if(playerX - 1 < 0)
     {
       return 1;
     }
-    return gameplayMap1[playerY][playerX - 1];
+    return gameplayMap[playerY][playerX - 1];
   default:
     break;
   } //switch(direction)

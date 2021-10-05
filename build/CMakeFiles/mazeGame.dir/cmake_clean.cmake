@@ -17,6 +17,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/mazeGame.dir/src/map.cpp.obj.d"
   "CMakeFiles/mazeGame.dir/src/textureManager.cpp.obj"
   "CMakeFiles/mazeGame.dir/src/textureManager.cpp.obj.d"
+  "CMakeFiles/mazeGame.dir/src/viewmap.cpp.obj"
+  "CMakeFiles/mazeGame.dir/src/viewmap.cpp.obj.d"
 )
 
 # Per-language clean rules from dependency scanning.

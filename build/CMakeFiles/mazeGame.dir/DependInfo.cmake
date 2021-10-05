@@ -15,6 +15,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "B:/Coding/c++/games/mazeGame/src/main.cpp" "CMakeFiles/mazeGame.dir/src/main.cpp.obj" "gcc" "CMakeFiles/mazeGame.dir/src/main.cpp.obj.d"
   "B:/Coding/c++/games/mazeGame/src/map.cpp" "CMakeFiles/mazeGame.dir/src/map.cpp.obj" "gcc" "CMakeFiles/mazeGame.dir/src/map.cpp.obj.d"
   "B:/Coding/c++/games/mazeGame/src/textureManager.cpp" "CMakeFiles/mazeGame.dir/src/textureManager.cpp.obj" "gcc" "CMakeFiles/mazeGame.dir/src/textureManager.cpp.obj.d"
+  "B:/Coding/c++/games/mazeGame/src/viewmap.cpp" "CMakeFiles/mazeGame.dir/src/viewmap.cpp.obj" "gcc" "CMakeFiles/mazeGame.dir/src/viewmap.cpp.obj.d"
   )
 
 # Targets to which this target links.

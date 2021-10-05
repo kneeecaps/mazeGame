@@ -589,6 +589,7 @@ CMakeFiles/mazeGame.dir/src/game.cpp.obj
  C:/mingw32/i686-w64-mingw32/include/mcx.h
  C:/mingw32/i686-w64-mingw32/include/imm.h
  B:/Coding/c++/games/mazeGame/src/map.h
+ B:/Coding/c++/games/mazeGame/src/viewMap.h
  B:/Coding/c++/games/mazeGame/src/gameplayMap.h
  B:/Coding/c++/games/mazeGame/src/leaderboard.h
  C:/mingw32/include/c++/11.1.0/fstream
@@ -1650,6 +1651,7 @@ CMakeFiles/mazeGame.dir/src/main.cpp.obj
 CMakeFiles/mazeGame.dir/src/map.cpp.obj
  B:/Coding/c++/games/mazeGame/src/map.cpp
  B:/Coding/c++/games/mazeGame/src/map.h
+ B:/Coding/c++/games/mazeGame/src/viewMap.h
  B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_image.h
  B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL.h
  B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_main.h
@@ -1823,7 +1825,7 @@ CMakeFiles/mazeGame.dir/src/map.cpp.obj
  B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_version.h
  B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_locale.h
  B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_misc.h
- B:/Coding/c++/games/mazeGame/src/textureManager.h
+ B:/Coding/c++/games/mazeGame/src/gameplayMap.h
 
 CMakeFiles/mazeGame.dir/src/textureManager.cpp.obj
  B:/Coding/c++/games/mazeGame/src/textureManager.cpp

@@ -587,6 +587,7 @@ CMakeFiles/mazeGame.dir/src/game.cpp.obj: ../src/game.cpp \
   C:/mingw32/i686-w64-mingw32/include/mcx.h \
   C:/mingw32/i686-w64-mingw32/include/imm.h \
   ../src/map.h \
+  ../src/viewMap.h \
   ../src/gameplayMap.h \
   ../src/leaderboard.h \
   C:/mingw32/include/c++/11.1.0/fstream \
@@ -1644,6 +1645,7 @@ CMakeFiles/mazeGame.dir/src/main.cpp.obj: ../src/main.cpp \
 
 CMakeFiles/mazeGame.dir/src/map.cpp.obj: ../src/map.cpp \
   ../src/map.h \
+  ../src/viewMap.h \
   ../lib/SDL2/include/SDL2/SDL_image.h \
   ../lib/SDL2/include/SDL2/SDL.h \
   ../lib/SDL2/include/SDL2/SDL_main.h \
@@ -1817,7 +1819,7 @@ CMakeFiles/mazeGame.dir/src/map.cpp.obj: ../src/map.cpp \
   ../lib/SDL2/include/SDL2/SDL_version.h \
   ../lib/SDL2/include/SDL2/SDL_locale.h \
   ../lib/SDL2/include/SDL2/SDL_misc.h \
-  ../src/textureManager.h
+  ../src/gameplayMap.h
 
 CMakeFiles/mazeGame.dir/src/textureManager.cpp.obj: ../src/textureManager.cpp \
   ../src/textureManager.h \
@@ -2593,6 +2595,8 @@ C:/mingw32/include/c++/11.1.0/cstdint:
 C:/mingw32/lib/gcc/i686-w64-mingw32/11.1.0/include/stdint.h:
 
 C:/mingw32/i686-w64-mingw32/include/stdint.h:
+
+../src/viewMap.h:
 
 C:/mingw32/include/c++/11.1.0/i686-w64-mingw32/bits/c++locale.h:
 

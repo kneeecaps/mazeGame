@@ -4,11 +4,13 @@
 #include "textureManager.h"
 #include "audioManager.h"
 #include "map.h"
-#include "gameplayMap.h"
+//#include "viewMap.h"
+//#include "gamePlayMap.h"
 #include "leaderboard.h"
 
 Map* map = nullptr;
-gameplayMap* gameMap = nullptr;
+ViewMap viewMap;
+GamePlayMap gameMap;
 Leaderboard* leaderboard = nullptr;
 
 SDL_Renderer* Game::renderer = nullptr;
@@ -73,8 +75,9 @@ void Game::init(const char* title, int xpos, int ypos, int width, int height, bo
     isRunning = false;
   }
 
-  map = new Map();
-  gameMap = new gameplayMap();
+  viewMap = ViewMap();
+  gameMap = GamePlayMap();
+  map = new Map(viewMap, gameMap);
 } //init(const char* title, int xpos, int ypos, int width, int height, bool fullscreen)
 
 void Game::gameComplete()
@@ -116,19 +119,19 @@ void Game::handleEvents()
     switch(event.key.keysym.sym)
     {
     case SDLK_UP:
-      if(gameMap->move(0, money) == 4)
+      if(map->move(0, money) == 4)
       {
         addMoney();
       }
       break;
     case SDLK_DOWN:
-      if(gameMap->move(1, money) == 4)
+      if(map->move(1, money) == 4)
       {
         addMoney();
       }
       break;
     case SDLK_RIGHT:
-      switch(gameMap->move(2, money))
+      switch(map->move(2, money))
       {
       case 3:
         gameComplete();
@@ -138,7 +141,7 @@ void Game::handleEvents()
       }
       break;
     case SDLK_LEFT:
-      if(gameMap->move(3, money) == 4)
+      if(map->move(3, money) == 4)
       {
         addMoney();
       }
@@ -163,8 +166,7 @@ void Game::update()
 void Game::render()
 {
   SDL_RenderClear(renderer);
-  map->drawMap();
-  gameMap->drawMap();
+  map->render();
   switch(money)
   {
   case 0:

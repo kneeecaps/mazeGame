@@ -297,6 +297,30 @@ src/textureManager.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\mazeGame.dir\build.make CMakeFiles/mazeGame.dir/src/textureManager.cpp.s
 .PHONY : src/textureManager.cpp.s
 
+src/viewmap.obj: src/viewmap.cpp.obj
+.PHONY : src/viewmap.obj
+
+# target to build an object file
+src/viewmap.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\mazeGame.dir\build.make CMakeFiles/mazeGame.dir/src/viewmap.cpp.obj
+.PHONY : src/viewmap.cpp.obj
+
+src/viewmap.i: src/viewmap.cpp.i
+.PHONY : src/viewmap.i
+
+# target to preprocess a source file
+src/viewmap.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\mazeGame.dir\build.make CMakeFiles/mazeGame.dir/src/viewmap.cpp.i
+.PHONY : src/viewmap.cpp.i
+
+src/viewmap.s: src/viewmap.cpp.s
+.PHONY : src/viewmap.s
+
+# target to generate assembly for a file
+src/viewmap.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\mazeGame.dir\build.make CMakeFiles/mazeGame.dir/src/viewmap.cpp.s
+.PHONY : src/viewmap.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -327,6 +351,9 @@ help:
 	@echo ... src/textureManager.obj
 	@echo ... src/textureManager.i
 	@echo ... src/textureManager.s
+	@echo ... src/viewmap.obj
+	@echo ... src/viewmap.i
+	@echo ... src/viewmap.s
 .PHONY : help
 
 

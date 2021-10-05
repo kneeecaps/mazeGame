@@ -1,10 +1,10 @@
 #include "SDL2/SDL_image.h"
 
-class gameplayMap
+class GamePlayMap
 {
 public:
-  gameplayMap();
-  ~gameplayMap();
+  GamePlayMap();
+  ~GamePlayMap();
 
   void loadMap(int arr[20][25]);
   void drawMap();
@@ -14,6 +14,8 @@ public:
 
   int move(int direction, int& money);
   int checkMove(int direction);
+
+  int getMap() {return map[20][25];}
 private:
   int playerY = 19;
   int playerX = 1;

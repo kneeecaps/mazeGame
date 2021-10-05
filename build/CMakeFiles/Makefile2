@@ -80,12 +80,12 @@ clean: CMakeFiles/mazeGame.dir/clean
 CMakeFiles/mazeGame.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\mazeGame.dir\build.make CMakeFiles/mazeGame.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\mazeGame.dir\build.make CMakeFiles/mazeGame.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=B:\Coding\c++\games\mazeGame\build\CMakeFiles --progress-num=1,2,3,4,5,6,7,8 "Built target mazeGame"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=B:\Coding\c++\games\mazeGame\build\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9 "Built target mazeGame"
 .PHONY : CMakeFiles/mazeGame.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/mazeGame.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start B:\Coding\c++\games\mazeGame\build\CMakeFiles 8
+	$(CMAKE_COMMAND) -E cmake_progress_start B:\Coding\c++\games\mazeGame\build\CMakeFiles 9
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/mazeGame.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start B:\Coding\c++\games\mazeGame\build\CMakeFiles 0
 .PHONY : CMakeFiles/mazeGame.dir/rule

@@ -12,6 +12,7 @@ set(OLD_GLOB
   "B:/Coding/c++/games/mazeGame/src/main.cpp"
   "B:/Coding/c++/games/mazeGame/src/map.cpp"
   "B:/Coding/c++/games/mazeGame/src/textureManager.cpp"
+  "B:/Coding/c++/games/mazeGame/src/viewmap.cpp"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
@@ -27,6 +28,7 @@ set(OLD_GLOB
   "B:/Coding/c++/games/mazeGame/src/leaderboard.h"
   "B:/Coding/c++/games/mazeGame/src/map.h"
   "B:/Coding/c++/games/mazeGame/src/textureManager.h"
+  "B:/Coding/c++/games/mazeGame/src/viewMap.h"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")

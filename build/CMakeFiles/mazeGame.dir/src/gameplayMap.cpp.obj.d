@@ -135,7 +135,7 @@ CMakeFiles/mazeGame.dir/src/gameplayMap.cpp.obj: \
  c:\mingw32\include\c++\11.1.0\bits\ostream.tcc \
  c:\mingw32\include\c++\11.1.0\istream \
  c:\mingw32\include\c++\11.1.0\bits\istream.tcc \
- B:\Coding\c++\games\mazeGame\src\gameplayMap.h \
+ B:\Coding\c++\games\mazeGame\src\GamePlayMap.h \
  B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_image.h \
  B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL.h \
  B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_main.h \
