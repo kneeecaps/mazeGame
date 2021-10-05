@@ -35,7 +35,9 @@ Leaderboard::~Leaderboard()
 
 void Leaderboard::getLeaderboard()
 {
-  std::ifstream leaderboardFile("data\\leaderboard\\leaderboard.data");
+  leaderboard.clear();
+
+  std::ifstream leaderboardFile("data/leaderboard/leaderboard.data");
 
   for(std::string line; getline(leaderboardFile, line);)
   {
@@ -51,6 +53,8 @@ void Leaderboard::getLeaderboard()
 
     leaderboard.push_back(leaderboardPos(tmpName, tmpTime, tmpMoney, tmpScore));
   } //std::string line; getline(leaderboardFile, line);
+
+  leaderboardFile.close();
 
   std::partial_sort(leaderboard.begin(), leaderboard.begin() + 5, leaderboard.end(), std::greater{});
 } //getLeaderboard()
@@ -115,7 +119,7 @@ void Leaderboard::displayLeaderboard()
 {
   getLeaderboard();
 
-  std::cout << "--LEADERBOARD--\n";
+  std::cout << "--LEADERBOARD--\nNOTE: Some scores were recorded before current version of game\n\n";
   int j = 1;
   for(leaderboardPos i : leaderboard)
   {
@@ -136,7 +140,39 @@ void Leaderboard::saveToLeaderboard(std::string name, int time, int money, int s
   leaderboardPos tmpLeaderboardPos(name, time, money, score);
 
   std::ofstream leaderboardFile;
-  leaderboardFile.open("data\\leaderboard\\leaderboard.data", std::ios::app);
+  leaderboardFile.open("data/leaderboard/leaderboard.data", std::ios::app);
 
-  leaderboardFile << "\n" << tmpLeaderboardPos.name << '*' << tmpLeaderboardPos.time << '#' << tmpLeaderboardPos.money << '@' << tmpLeaderboardPos.score;
+  leaderboardFile << tmpLeaderboardPos.name << '*' << tmpLeaderboardPos.time << '#' << tmpLeaderboardPos.money << '@' << tmpLeaderboardPos.score << "\n" ;
 } //saveToLeaderboard(std::string name, int time, int money, int score)
+void Leaderboard::saveToLeaderboard(leaderboardPos tmpLeaderboardPos)
+{
+  std::ofstream leaderboardFile;
+  leaderboardFile.open("data/leaderboard/leaderboard.data", std::ios::app);
+
+  leaderboardFile << tmpLeaderboardPos.name << '*' << tmpLeaderboardPos.time << '#' << tmpLeaderboardPos.money << '@' << tmpLeaderboardPos.score << "\n" ;
+
+  leaderboardFile.close();
+}
+
+void Leaderboard::exportLeaderboard()
+{
+  getLeaderboard();
+
+  std::ofstream leaderboardFile;
+  leaderboardFile.open("data/leaderboard/leaderboard.data", std::ofstream::trunc);
+  leaderboardFile.close();
+
+  int j = 0;
+  for(leaderboardPos i : leaderboard)
+  {
+    if(j < 5)
+    {
+      saveToLeaderboard(i);
+      j++;
+    }
+    else
+    {
+      break;
+    }
+  }
+} //exportLeaderboard()

@@ -203,6 +203,8 @@ void Game::render()
 } //render()
 void Game::clean()
 {
+  leaderboard->exportLeaderboard();
+
   SDL_DestroyWindow(window);
   SDL_DestroyRenderer(renderer);
   SDL_Quit();

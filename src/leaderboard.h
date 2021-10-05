@@ -32,6 +32,8 @@ public:
   void showLeaderboardText();
   void displayLeaderboard();
   void saveToLeaderboard(std::string name, int time, int money, int score);
+  void saveToLeaderboard(leaderboardPos tmpLeaderboardPos);
+  void exportLeaderboard();
 private:
   int leaderboardBackgroundMap[20][25] = {
     {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0},
