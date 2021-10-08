@@ -85,7 +85,7 @@ void Game::levelComplete()
   else
   {
     audioManager::playSound("assets/levelComplete.wav");
-    money = -1;
+    money = 0;
     mapList->addLevel();
   }
 } //levelComplete()
@@ -144,6 +144,7 @@ void Game::handleEvents()
       {
       case 3:
         levelComplete();
+        break;
       case 4:
         addMoney();
         break;
