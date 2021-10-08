@@ -76,15 +76,15 @@ void Game::init(const char* title, int xpos, int ypos, int width, int height, bo
 
 void Game::levelComplete()
 {
-  audioManager::playSound("assets/levelComplete.wav");
-
   totalMoney += money;
   if(mapList->getLevel() == 2)
   {
+    audioManager::playSound("assets/levelComplete.wav");
     gameComplete();
   }
   else
   {
+    audioManager::playSound("assets/levelComplete.wav");
     money = -1;
     mapList->addLevel();
   }
@@ -100,7 +100,7 @@ void Game::gameComplete()
   leaderboardShown = true;
   render();
 
-  std::cout << "\nDo you want to save your time? (y/n): ";
+  std::cout << "\nDo you want to save your score? (y/n): ";
   std::cin >> saveYN;
   if(saveYN == 'y' || saveYN == 'Y')
   {
