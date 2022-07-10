@@ -3,8 +3,7 @@
 
 CMakeFiles/mazeGame.dir/src/audioManager.cpp.obj
  B:/Coding/c++/mazeGame/src/audioManager.cpp
- B:/Coding/c++/games/mazeGame/src/audioManager.cpp
- B:/Coding/c++/games/mazeGame/src/audioManager.h
+ B:/Coding/c++/mazeGame/src/audioManager.h
  D:/mingw64/x86_64-w64-mingw32/include/windows.h
  D:/mingw64/x86_64-w64-mingw32/include/_mingw.h
  D:/mingw64/x86_64-w64-mingw32/include/_mingw_mac.h
@@ -264,7 +263,6 @@ CMakeFiles/mazeGame.dir/src/audioManager.cpp.obj
 
 CMakeFiles/mazeGame.dir/src/game.cpp.obj
  B:/Coding/c++/mazeGame/src/game.cpp
- B:/Coding/c++/games/mazeGame/src/game.cpp
  D:/mingw64/include/c++/12.1.0/iostream
  D:/mingw64/include/c++/12.1.0/x86_64-w64-mingw32/bits/c++config.h
  D:/mingw64/include/c++/12.1.0/x86_64-w64-mingw32/bits/os_defines.h
@@ -403,27 +401,27 @@ CMakeFiles/mazeGame.dir/src/game.cpp.obj
  D:/mingw64/include/c++/12.1.0/bits/ostream.tcc
  D:/mingw64/include/c++/12.1.0/istream
  D:/mingw64/include/c++/12.1.0/bits/istream.tcc
- B:/Coding/c++/games/mazeGame/src/game.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_main.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_stdinc.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_config.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_platform.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/begin_code.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/close_code.h
+ B:/Coding/c++/mazeGame/src/game.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_main.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_stdinc.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_config.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_platform.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/begin_code.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/close_code.h
  D:/mingw64/lib/gcc/x86_64-w64-mingw32/12.1.0/include/stdarg.h
  D:/mingw64/x86_64-w64-mingw32/include/stdarg.h
  D:/mingw64/x86_64-w64-mingw32/include/_mingw_stdarg.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_assert.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_atomic.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_audio.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_error.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_endian.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_mutex.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_thread.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_rwops.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_clipboard.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_cpuinfo.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_assert.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_atomic.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_audio.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_error.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_endian.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_mutex.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_thread.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_rwops.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_clipboard.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_cpuinfo.h
  D:/mingw64/x86_64-w64-mingw32/include/intrin.h
  D:/mingw64/x86_64-w64-mingw32/include/setjmp.h
  D:/mingw64/x86_64-w64-mingw32/include/psdk_inc/intrin-impl.h
@@ -518,41 +516,41 @@ CMakeFiles/mazeGame.dir/src/game.cpp.obj
  D:/mingw64/lib/gcc/x86_64-w64-mingw32/12.1.0/include/ammintrin.h
  D:/mingw64/lib/gcc/x86_64-w64-mingw32/12.1.0/include/xopintrin.h
  D:/mingw64/lib/gcc/x86_64-w64-mingw32/12.1.0/include/cpuid.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_events.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_video.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_pixels.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_rect.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_surface.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_blendmode.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_keyboard.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_keycode.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_scancode.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_mouse.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_joystick.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_gamecontroller.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_sensor.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_quit.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_gesture.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_touch.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_filesystem.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_haptic.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_hints.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_loadso.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_log.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_messagebox.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_metal.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_power.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_render.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_shape.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_system.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_timer.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_version.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_locale.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_misc.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_image.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL.h
- B:/Coding/c++/games/mazeGame/src/textureManager.h
- B:/Coding/c++/games/mazeGame/src/audioManager.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_events.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_video.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_pixels.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_rect.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_surface.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_blendmode.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_keyboard.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_keycode.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_scancode.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_mouse.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_joystick.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_gamecontroller.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_sensor.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_quit.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_gesture.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_touch.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_filesystem.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_haptic.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_hints.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_loadso.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_log.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_messagebox.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_metal.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_power.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_render.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_shape.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_system.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_timer.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_version.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_locale.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_misc.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_image.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL.h
+ B:/Coding/c++/mazeGame/src/textureManager.h
+ B:/Coding/c++/mazeGame/src/audioManager.h
  D:/mingw64/x86_64-w64-mingw32/include/windows.h
  D:/mingw64/x86_64-w64-mingw32/include/sdkddkver.h
  D:/mingw64/x86_64-w64-mingw32/include/excpt.h
@@ -688,11 +686,11 @@ CMakeFiles/mazeGame.dir/src/game.cpp.obj
  D:/mingw64/x86_64-w64-mingw32/include/winsvc.h
  D:/mingw64/x86_64-w64-mingw32/include/mcx.h
  D:/mingw64/x86_64-w64-mingw32/include/imm.h
- B:/Coding/c++/games/mazeGame/src/mapList.h
- B:/Coding/c++/games/mazeGame/src/map.h
- B:/Coding/c++/games/mazeGame/src/viewMap.h
- B:/Coding/c++/games/mazeGame/src/gameplayMap.h
- B:/Coding/c++/games/mazeGame/src/leaderboard.h
+ B:/Coding/c++/mazeGame/src/mapList.h
+ B:/Coding/c++/mazeGame/src/map.h
+ B:/Coding/c++/mazeGame/src/viewMap.h
+ B:/Coding/c++/mazeGame/src/gameplayMap.h
+ B:/Coding/c++/mazeGame/src/leaderboard.h
  D:/mingw64/include/c++/12.1.0/fstream
  D:/mingw64/include/c++/12.1.0/bits/codecvt.h
  D:/mingw64/include/c++/12.1.0/x86_64-w64-mingw32/bits/basic_file.h
@@ -714,7 +712,6 @@ CMakeFiles/mazeGame.dir/src/game.cpp.obj
 
 CMakeFiles/mazeGame.dir/src/gameplayMap.cpp.obj
  B:/Coding/c++/mazeGame/src/gameplayMap.cpp
- B:/Coding/c++/games/mazeGame/src/gameplayMap.cpp
  D:/mingw64/include/c++/12.1.0/iostream
  D:/mingw64/include/c++/12.1.0/x86_64-w64-mingw32/bits/c++config.h
  D:/mingw64/include/c++/12.1.0/x86_64-w64-mingw32/bits/os_defines.h
@@ -853,28 +850,28 @@ CMakeFiles/mazeGame.dir/src/gameplayMap.cpp.obj
  D:/mingw64/include/c++/12.1.0/bits/ostream.tcc
  D:/mingw64/include/c++/12.1.0/istream
  D:/mingw64/include/c++/12.1.0/bits/istream.tcc
- B:/Coding/c++/games/mazeGame/src/gameplayMap.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_image.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_main.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_stdinc.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_config.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_platform.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/begin_code.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/close_code.h
+ B:/Coding/c++/mazeGame/src/gameplayMap.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_image.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_main.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_stdinc.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_config.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_platform.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/begin_code.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/close_code.h
  D:/mingw64/lib/gcc/x86_64-w64-mingw32/12.1.0/include/stdarg.h
  D:/mingw64/x86_64-w64-mingw32/include/stdarg.h
  D:/mingw64/x86_64-w64-mingw32/include/_mingw_stdarg.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_assert.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_atomic.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_audio.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_error.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_endian.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_mutex.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_thread.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_rwops.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_clipboard.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_cpuinfo.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_assert.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_atomic.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_audio.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_error.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_endian.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_mutex.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_thread.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_rwops.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_clipboard.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_cpuinfo.h
  D:/mingw64/x86_64-w64-mingw32/include/intrin.h
  D:/mingw64/x86_64-w64-mingw32/include/setjmp.h
  D:/mingw64/x86_64-w64-mingw32/include/psdk_inc/intrin-impl.h
@@ -969,39 +966,39 @@ CMakeFiles/mazeGame.dir/src/gameplayMap.cpp.obj
  D:/mingw64/lib/gcc/x86_64-w64-mingw32/12.1.0/include/ammintrin.h
  D:/mingw64/lib/gcc/x86_64-w64-mingw32/12.1.0/include/xopintrin.h
  D:/mingw64/lib/gcc/x86_64-w64-mingw32/12.1.0/include/cpuid.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_events.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_video.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_pixels.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_rect.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_surface.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_blendmode.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_keyboard.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_keycode.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_scancode.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_mouse.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_joystick.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_gamecontroller.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_sensor.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_quit.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_gesture.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_touch.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_filesystem.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_haptic.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_hints.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_loadso.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_log.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_messagebox.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_metal.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_power.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_render.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_shape.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_system.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_timer.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_version.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_locale.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_misc.h
- B:/Coding/c++/games/mazeGame/src/textureManager.h
- B:/Coding/c++/games/mazeGame/src/audioManager.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_events.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_video.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_pixels.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_rect.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_surface.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_blendmode.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_keyboard.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_keycode.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_scancode.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_mouse.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_joystick.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_gamecontroller.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_sensor.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_quit.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_gesture.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_touch.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_filesystem.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_haptic.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_hints.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_loadso.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_log.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_messagebox.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_metal.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_power.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_render.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_shape.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_system.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_timer.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_version.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_locale.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_misc.h
+ B:/Coding/c++/mazeGame/src/textureManager.h
+ B:/Coding/c++/mazeGame/src/audioManager.h
  D:/mingw64/x86_64-w64-mingw32/include/windows.h
  D:/mingw64/x86_64-w64-mingw32/include/sdkddkver.h
  D:/mingw64/x86_64-w64-mingw32/include/excpt.h
@@ -1137,13 +1134,12 @@ CMakeFiles/mazeGame.dir/src/gameplayMap.cpp.obj
  D:/mingw64/x86_64-w64-mingw32/include/winsvc.h
  D:/mingw64/x86_64-w64-mingw32/include/mcx.h
  D:/mingw64/x86_64-w64-mingw32/include/imm.h
- B:/Coding/c++/games/mazeGame/src/game.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL.h
+ B:/Coding/c++/mazeGame/src/game.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL.h
 
 CMakeFiles/mazeGame.dir/src/leaderboard.cpp.obj
  B:/Coding/c++/mazeGame/src/leaderboard.cpp
- B:/Coding/c++/games/mazeGame/src/leaderboard.cpp
- B:/Coding/c++/games/mazeGame/src/leaderboard.h
+ B:/Coding/c++/mazeGame/src/leaderboard.h
  D:/mingw64/include/c++/12.1.0/iostream
  D:/mingw64/include/c++/12.1.0/x86_64-w64-mingw32/bits/c++config.h
  D:/mingw64/include/c++/12.1.0/x86_64-w64-mingw32/bits/os_defines.h
@@ -1300,27 +1296,27 @@ CMakeFiles/mazeGame.dir/src/leaderboard.cpp.obj
  D:/mingw64/include/c++/12.1.0/bits/stl_vector.h
  D:/mingw64/include/c++/12.1.0/bits/stl_bvector.h
  D:/mingw64/include/c++/12.1.0/bits/vector.tcc
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_image.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_main.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_stdinc.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_config.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_platform.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/begin_code.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/close_code.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_image.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_main.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_stdinc.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_config.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_platform.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/begin_code.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/close_code.h
  D:/mingw64/lib/gcc/x86_64-w64-mingw32/12.1.0/include/stdarg.h
  D:/mingw64/x86_64-w64-mingw32/include/stdarg.h
  D:/mingw64/x86_64-w64-mingw32/include/_mingw_stdarg.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_assert.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_atomic.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_audio.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_error.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_endian.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_mutex.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_thread.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_rwops.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_clipboard.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_cpuinfo.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_assert.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_atomic.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_audio.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_error.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_endian.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_mutex.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_thread.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_rwops.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_clipboard.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_cpuinfo.h
  D:/mingw64/x86_64-w64-mingw32/include/intrin.h
  D:/mingw64/x86_64-w64-mingw32/include/setjmp.h
  D:/mingw64/x86_64-w64-mingw32/include/psdk_inc/intrin-impl.h
@@ -1415,42 +1411,41 @@ CMakeFiles/mazeGame.dir/src/leaderboard.cpp.obj
  D:/mingw64/lib/gcc/x86_64-w64-mingw32/12.1.0/include/ammintrin.h
  D:/mingw64/lib/gcc/x86_64-w64-mingw32/12.1.0/include/xopintrin.h
  D:/mingw64/lib/gcc/x86_64-w64-mingw32/12.1.0/include/cpuid.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_events.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_video.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_pixels.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_rect.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_surface.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_blendmode.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_keyboard.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_keycode.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_scancode.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_mouse.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_joystick.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_gamecontroller.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_sensor.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_quit.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_gesture.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_touch.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_filesystem.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_haptic.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_hints.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_loadso.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_log.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_messagebox.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_metal.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_power.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_render.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_shape.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_system.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_timer.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_version.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_locale.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_misc.h
- B:/Coding/c++/games/mazeGame/src/textureManager.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_events.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_video.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_pixels.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_rect.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_surface.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_blendmode.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_keyboard.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_keycode.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_scancode.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_mouse.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_joystick.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_gamecontroller.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_sensor.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_quit.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_gesture.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_touch.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_filesystem.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_haptic.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_hints.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_loadso.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_log.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_messagebox.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_metal.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_power.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_render.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_shape.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_system.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_timer.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_version.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_locale.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_misc.h
+ B:/Coding/c++/mazeGame/src/textureManager.h
 
 CMakeFiles/mazeGame.dir/src/main.cpp.obj
  B:/Coding/c++/mazeGame/src/main.cpp
- B:/Coding/c++/games/mazeGame/src/main.cpp
  D:/mingw64/include/c++/12.1.0/iostream
  D:/mingw64/include/c++/12.1.0/x86_64-w64-mingw32/bits/c++config.h
  D:/mingw64/include/c++/12.1.0/x86_64-w64-mingw32/bits/os_defines.h
@@ -1589,26 +1584,26 @@ CMakeFiles/mazeGame.dir/src/main.cpp.obj
  D:/mingw64/include/c++/12.1.0/bits/ostream.tcc
  D:/mingw64/include/c++/12.1.0/istream
  D:/mingw64/include/c++/12.1.0/bits/istream.tcc
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_main.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_stdinc.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_config.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_platform.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/begin_code.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/close_code.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_main.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_stdinc.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_config.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_platform.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/begin_code.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/close_code.h
  D:/mingw64/lib/gcc/x86_64-w64-mingw32/12.1.0/include/stdarg.h
  D:/mingw64/x86_64-w64-mingw32/include/stdarg.h
  D:/mingw64/x86_64-w64-mingw32/include/_mingw_stdarg.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_assert.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_atomic.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_audio.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_error.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_endian.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_mutex.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_thread.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_rwops.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_clipboard.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_cpuinfo.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_assert.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_atomic.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_audio.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_error.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_endian.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_mutex.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_thread.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_rwops.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_clipboard.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_cpuinfo.h
  D:/mingw64/x86_64-w64-mingw32/include/intrin.h
  D:/mingw64/x86_64-w64-mingw32/include/setjmp.h
  D:/mingw64/x86_64-w64-mingw32/include/psdk_inc/intrin-impl.h
@@ -1703,54 +1698,53 @@ CMakeFiles/mazeGame.dir/src/main.cpp.obj
  D:/mingw64/lib/gcc/x86_64-w64-mingw32/12.1.0/include/ammintrin.h
  D:/mingw64/lib/gcc/x86_64-w64-mingw32/12.1.0/include/xopintrin.h
  D:/mingw64/lib/gcc/x86_64-w64-mingw32/12.1.0/include/cpuid.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_events.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_video.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_pixels.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_rect.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_surface.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_blendmode.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_keyboard.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_keycode.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_scancode.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_mouse.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_joystick.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_gamecontroller.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_sensor.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_quit.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_gesture.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_touch.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_filesystem.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_haptic.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_hints.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_loadso.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_log.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_messagebox.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_metal.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_power.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_render.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_shape.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_system.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_timer.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_version.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_locale.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_misc.h
- B:/Coding/c++/games/mazeGame/src/game.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_image.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_events.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_video.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_pixels.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_rect.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_surface.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_blendmode.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_keyboard.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_keycode.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_scancode.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_mouse.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_joystick.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_gamecontroller.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_sensor.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_quit.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_gesture.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_touch.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_filesystem.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_haptic.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_hints.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_loadso.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_log.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_messagebox.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_metal.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_power.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_render.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_shape.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_system.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_timer.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_version.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_locale.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_misc.h
+ B:/Coding/c++/mazeGame/src/game.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_image.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL.h
 
 CMakeFiles/mazeGame.dir/src/map.cpp.obj
  B:/Coding/c++/mazeGame/src/map.cpp
- B:/Coding/c++/games/mazeGame/src/map.cpp
- B:/Coding/c++/games/mazeGame/src/map.h
- B:/Coding/c++/games/mazeGame/src/viewMap.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_image.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_main.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_stdinc.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_config.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_platform.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/begin_code.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/close_code.h
+ B:/Coding/c++/mazeGame/src/map.h
+ B:/Coding/c++/mazeGame/src/viewMap.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_image.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_main.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_stdinc.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_config.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_platform.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/begin_code.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/close_code.h
  D:/mingw64/lib/gcc/x86_64-w64-mingw32/12.1.0/include/stddef.h
  D:/mingw64/x86_64-w64-mingw32/include/stddef.h
  D:/mingw64/x86_64-w64-mingw32/include/crtdefs.h
@@ -1765,20 +1759,20 @@ CMakeFiles/mazeGame.dir/src/map.cpp.obj
  D:/mingw64/x86_64-w64-mingw32/include/_mingw_stdarg.h
  D:/mingw64/lib/gcc/x86_64-w64-mingw32/12.1.0/include/stdint.h
  D:/mingw64/x86_64-w64-mingw32/include/stdint.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_assert.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_atomic.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_audio.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_error.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_endian.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_mutex.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_thread.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_assert.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_atomic.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_audio.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_error.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_endian.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_mutex.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_thread.h
  D:/mingw64/x86_64-w64-mingw32/include/process.h
  D:/mingw64/x86_64-w64-mingw32/include/corecrt_startup.h
  D:/mingw64/x86_64-w64-mingw32/include/sys/types.h
  D:/mingw64/x86_64-w64-mingw32/include/_mingw_off_t.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_rwops.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_clipboard.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_cpuinfo.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_rwops.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_clipboard.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_cpuinfo.h
  D:/mingw64/x86_64-w64-mingw32/include/intrin.h
  D:/mingw64/x86_64-w64-mingw32/include/setjmp.h
  D:/mingw64/x86_64-w64-mingw32/include/psdk_inc/intrin-impl.h
@@ -1889,53 +1883,52 @@ CMakeFiles/mazeGame.dir/src/map.cpp.obj
  D:/mingw64/lib/gcc/x86_64-w64-mingw32/12.1.0/include/ammintrin.h
  D:/mingw64/lib/gcc/x86_64-w64-mingw32/12.1.0/include/xopintrin.h
  D:/mingw64/lib/gcc/x86_64-w64-mingw32/12.1.0/include/cpuid.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_events.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_video.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_pixels.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_rect.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_surface.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_blendmode.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_keyboard.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_keycode.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_scancode.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_mouse.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_joystick.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_gamecontroller.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_sensor.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_quit.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_gesture.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_touch.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_filesystem.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_haptic.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_hints.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_loadso.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_log.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_messagebox.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_metal.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_power.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_render.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_shape.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_system.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_timer.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_version.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_locale.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_misc.h
- B:/Coding/c++/games/mazeGame/src/gameplayMap.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_events.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_video.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_pixels.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_rect.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_surface.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_blendmode.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_keyboard.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_keycode.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_scancode.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_mouse.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_joystick.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_gamecontroller.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_sensor.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_quit.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_gesture.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_touch.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_filesystem.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_haptic.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_hints.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_loadso.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_log.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_messagebox.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_metal.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_power.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_render.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_shape.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_system.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_timer.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_version.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_locale.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_misc.h
+ B:/Coding/c++/mazeGame/src/gameplayMap.h
 
 CMakeFiles/mazeGame.dir/src/mapList.cpp.obj
  B:/Coding/c++/mazeGame/src/mapList.cpp
- B:/Coding/c++/games/mazeGame/src/mapList.cpp
- B:/Coding/c++/games/mazeGame/src/mapList.h
- B:/Coding/c++/games/mazeGame/src/map.h
- B:/Coding/c++/games/mazeGame/src/viewMap.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_image.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_main.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_stdinc.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_config.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_platform.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/begin_code.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/close_code.h
+ B:/Coding/c++/mazeGame/src/mapList.h
+ B:/Coding/c++/mazeGame/src/map.h
+ B:/Coding/c++/mazeGame/src/viewMap.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_image.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_main.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_stdinc.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_config.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_platform.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/begin_code.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/close_code.h
  D:/mingw64/lib/gcc/x86_64-w64-mingw32/12.1.0/include/stddef.h
  D:/mingw64/x86_64-w64-mingw32/include/stddef.h
  D:/mingw64/x86_64-w64-mingw32/include/crtdefs.h
@@ -1950,20 +1943,20 @@ CMakeFiles/mazeGame.dir/src/mapList.cpp.obj
  D:/mingw64/x86_64-w64-mingw32/include/_mingw_stdarg.h
  D:/mingw64/lib/gcc/x86_64-w64-mingw32/12.1.0/include/stdint.h
  D:/mingw64/x86_64-w64-mingw32/include/stdint.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_assert.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_atomic.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_audio.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_error.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_endian.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_mutex.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_thread.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_assert.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_atomic.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_audio.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_error.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_endian.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_mutex.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_thread.h
  D:/mingw64/x86_64-w64-mingw32/include/process.h
  D:/mingw64/x86_64-w64-mingw32/include/corecrt_startup.h
  D:/mingw64/x86_64-w64-mingw32/include/sys/types.h
  D:/mingw64/x86_64-w64-mingw32/include/_mingw_off_t.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_rwops.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_clipboard.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_cpuinfo.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_rwops.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_clipboard.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_cpuinfo.h
  D:/mingw64/x86_64-w64-mingw32/include/intrin.h
  D:/mingw64/x86_64-w64-mingw32/include/setjmp.h
  D:/mingw64/x86_64-w64-mingw32/include/psdk_inc/intrin-impl.h
@@ -2074,51 +2067,50 @@ CMakeFiles/mazeGame.dir/src/mapList.cpp.obj
  D:/mingw64/lib/gcc/x86_64-w64-mingw32/12.1.0/include/ammintrin.h
  D:/mingw64/lib/gcc/x86_64-w64-mingw32/12.1.0/include/xopintrin.h
  D:/mingw64/lib/gcc/x86_64-w64-mingw32/12.1.0/include/cpuid.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_events.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_video.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_pixels.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_rect.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_surface.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_blendmode.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_keyboard.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_keycode.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_scancode.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_mouse.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_joystick.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_gamecontroller.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_sensor.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_quit.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_gesture.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_touch.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_filesystem.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_haptic.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_hints.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_loadso.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_log.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_messagebox.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_metal.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_power.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_render.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_shape.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_system.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_timer.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_version.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_locale.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_misc.h
- B:/Coding/c++/games/mazeGame/src/gameplayMap.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_events.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_video.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_pixels.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_rect.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_surface.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_blendmode.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_keyboard.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_keycode.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_scancode.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_mouse.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_joystick.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_gamecontroller.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_sensor.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_quit.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_gesture.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_touch.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_filesystem.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_haptic.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_hints.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_loadso.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_log.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_messagebox.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_metal.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_power.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_render.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_shape.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_system.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_timer.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_version.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_locale.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_misc.h
+ B:/Coding/c++/mazeGame/src/gameplayMap.h
 
 CMakeFiles/mazeGame.dir/src/textureManager.cpp.obj
  B:/Coding/c++/mazeGame/src/textureManager.cpp
- B:/Coding/c++/games/mazeGame/src/textureManager.cpp
- B:/Coding/c++/games/mazeGame/src/textureManager.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_image.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_main.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_stdinc.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_config.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_platform.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/begin_code.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/close_code.h
+ B:/Coding/c++/mazeGame/src/textureManager.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_image.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_main.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_stdinc.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_config.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_platform.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/begin_code.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/close_code.h
  D:/mingw64/lib/gcc/x86_64-w64-mingw32/12.1.0/include/stddef.h
  D:/mingw64/x86_64-w64-mingw32/include/stddef.h
  D:/mingw64/x86_64-w64-mingw32/include/crtdefs.h
@@ -2133,20 +2125,20 @@ CMakeFiles/mazeGame.dir/src/textureManager.cpp.obj
  D:/mingw64/x86_64-w64-mingw32/include/_mingw_stdarg.h
  D:/mingw64/lib/gcc/x86_64-w64-mingw32/12.1.0/include/stdint.h
  D:/mingw64/x86_64-w64-mingw32/include/stdint.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_assert.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_atomic.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_audio.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_error.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_endian.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_mutex.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_thread.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_assert.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_atomic.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_audio.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_error.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_endian.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_mutex.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_thread.h
  D:/mingw64/x86_64-w64-mingw32/include/process.h
  D:/mingw64/x86_64-w64-mingw32/include/corecrt_startup.h
  D:/mingw64/x86_64-w64-mingw32/include/sys/types.h
  D:/mingw64/x86_64-w64-mingw32/include/_mingw_off_t.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_rwops.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_clipboard.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_cpuinfo.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_rwops.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_clipboard.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_cpuinfo.h
  D:/mingw64/x86_64-w64-mingw32/include/intrin.h
  D:/mingw64/x86_64-w64-mingw32/include/setjmp.h
  D:/mingw64/x86_64-w64-mingw32/include/psdk_inc/intrin-impl.h
@@ -2257,53 +2249,52 @@ CMakeFiles/mazeGame.dir/src/textureManager.cpp.obj
  D:/mingw64/lib/gcc/x86_64-w64-mingw32/12.1.0/include/ammintrin.h
  D:/mingw64/lib/gcc/x86_64-w64-mingw32/12.1.0/include/xopintrin.h
  D:/mingw64/lib/gcc/x86_64-w64-mingw32/12.1.0/include/cpuid.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_events.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_video.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_pixels.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_rect.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_surface.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_blendmode.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_keyboard.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_keycode.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_scancode.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_mouse.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_joystick.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_gamecontroller.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_sensor.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_quit.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_gesture.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_touch.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_filesystem.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_haptic.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_hints.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_loadso.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_log.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_messagebox.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_metal.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_power.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_render.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_shape.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_system.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_timer.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_version.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_locale.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_misc.h
- B:/Coding/c++/games/mazeGame/src/game.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_events.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_video.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_pixels.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_rect.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_surface.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_blendmode.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_keyboard.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_keycode.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_scancode.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_mouse.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_joystick.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_gamecontroller.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_sensor.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_quit.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_gesture.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_touch.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_filesystem.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_haptic.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_hints.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_loadso.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_log.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_messagebox.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_metal.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_power.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_render.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_shape.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_system.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_timer.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_version.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_locale.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_misc.h
+ B:/Coding/c++/mazeGame/src/game.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL.h
 
 CMakeFiles/mazeGame.dir/src/viewmap.cpp.obj
  B:/Coding/c++/mazeGame/src/viewmap.cpp
- B:/Coding/c++/games/mazeGame/src/viewmap.cpp
- B:/Coding/c++/games/mazeGame/src/map.h
- B:/Coding/c++/games/mazeGame/src/viewMap.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_image.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_main.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_stdinc.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_config.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_platform.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/begin_code.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/close_code.h
+ B:/Coding/c++/mazeGame/src/map.h
+ B:/Coding/c++/mazeGame/src/viewMap.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_image.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_main.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_stdinc.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_config.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_platform.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/begin_code.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/close_code.h
  D:/mingw64/lib/gcc/x86_64-w64-mingw32/12.1.0/include/stddef.h
  D:/mingw64/x86_64-w64-mingw32/include/stddef.h
  D:/mingw64/x86_64-w64-mingw32/include/crtdefs.h
@@ -2318,20 +2309,20 @@ CMakeFiles/mazeGame.dir/src/viewmap.cpp.obj
  D:/mingw64/x86_64-w64-mingw32/include/_mingw_stdarg.h
  D:/mingw64/lib/gcc/x86_64-w64-mingw32/12.1.0/include/stdint.h
  D:/mingw64/x86_64-w64-mingw32/include/stdint.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_assert.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_atomic.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_audio.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_error.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_endian.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_mutex.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_thread.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_assert.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_atomic.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_audio.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_error.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_endian.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_mutex.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_thread.h
  D:/mingw64/x86_64-w64-mingw32/include/process.h
  D:/mingw64/x86_64-w64-mingw32/include/corecrt_startup.h
  D:/mingw64/x86_64-w64-mingw32/include/sys/types.h
  D:/mingw64/x86_64-w64-mingw32/include/_mingw_off_t.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_rwops.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_clipboard.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_cpuinfo.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_rwops.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_clipboard.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_cpuinfo.h
  D:/mingw64/x86_64-w64-mingw32/include/intrin.h
  D:/mingw64/x86_64-w64-mingw32/include/setjmp.h
  D:/mingw64/x86_64-w64-mingw32/include/psdk_inc/intrin-impl.h
@@ -2442,37 +2433,37 @@ CMakeFiles/mazeGame.dir/src/viewmap.cpp.obj
  D:/mingw64/lib/gcc/x86_64-w64-mingw32/12.1.0/include/ammintrin.h
  D:/mingw64/lib/gcc/x86_64-w64-mingw32/12.1.0/include/xopintrin.h
  D:/mingw64/lib/gcc/x86_64-w64-mingw32/12.1.0/include/cpuid.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_events.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_video.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_pixels.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_rect.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_surface.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_blendmode.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_keyboard.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_keycode.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_scancode.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_mouse.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_joystick.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_gamecontroller.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_sensor.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_quit.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_gesture.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_touch.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_filesystem.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_haptic.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_hints.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_loadso.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_log.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_messagebox.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_metal.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_power.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_render.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_shape.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_system.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_timer.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_version.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_locale.h
- B:/Coding/c++/games/mazeGame/lib/SDL2/include/SDL2/SDL_misc.h
- B:/Coding/c++/games/mazeGame/src/gameplayMap.h
- B:/Coding/c++/games/mazeGame/src/textureManager.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_events.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_video.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_pixels.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_rect.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_surface.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_blendmode.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_keyboard.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_keycode.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_scancode.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_mouse.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_joystick.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_gamecontroller.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_sensor.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_quit.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_gesture.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_touch.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_filesystem.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_haptic.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_hints.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_loadso.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_log.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_messagebox.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_metal.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_power.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_render.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_shape.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_system.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_timer.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_version.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_locale.h
+ B:/Coding/c++/mazeGame/lib/SDL2/include/SDL2/SDL_misc.h
+ B:/Coding/c++/mazeGame/src/gameplayMap.h
+ B:/Coding/c++/mazeGame/src/textureManager.h
 

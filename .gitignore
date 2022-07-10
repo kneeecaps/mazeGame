@@ -1,4 +1,4 @@
 *.dll
 *.dll.a
 *.exe
-build
+build/
