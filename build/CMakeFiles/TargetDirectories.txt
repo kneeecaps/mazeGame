@@ -1,3 +1,0 @@
-B:/Coding/c++/mazeGame/build/CMakeFiles/edit_cache.dir
-B:/Coding/c++/mazeGame/build/CMakeFiles/mazeGame.dir
-B:/Coding/c++/mazeGame/build/CMakeFiles/rebuild_cache.dir
