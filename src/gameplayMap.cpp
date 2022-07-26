@@ -1,6 +1,6 @@
 #include <iostream>
 
-#include "GamePlayMap.h"
+#include "gameplayMap.h"
 #include "textureManager.h"
 #include "audioManager.h"
 
