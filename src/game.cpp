@@ -110,7 +110,6 @@ void Game::gameComplete()
 
     leaderboard->saveToLeaderboard(tmpUsername, getTime(), getMoney(), getScore());
   } //saveYN == 'y' || saveYN == 'Y'
-  system("pause");
 
   isRunning = false;
 } //gameComplete()

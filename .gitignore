@@ -1,4 +1,2 @@
-*.dll
-*.dll.a
-*.exe
+mazeGame
 build/
