@@ -11,4 +11,5 @@ add_executable(${PROJECT_NAME} ${projectSRC})
 target_link_libraries(${PROJECT_NAME}
   SDL2
   SDL2_image
+  SDL2_mixer
 )

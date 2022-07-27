@@ -1,3 +1,5 @@
+#include "SDL2/SDL_mixer.h"
+
 class audioManager
 {
 public:
