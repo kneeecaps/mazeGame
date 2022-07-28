@@ -210,7 +210,7 @@ void Game::render()
   {
     leaderboard->displayLeaderboard();
     leaderboard->showLeaderboardBackground();
-    leaderboard->showLeaderboardText();
+    leaderboard->showLeaderboardText(renderer);
   }
 
   SDL_RenderPresent(renderer);

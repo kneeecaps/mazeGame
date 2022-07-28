@@ -4,7 +4,9 @@
 #include <vector>
 #include <string>
 
+#include "SDL2/SDL.h"
 #include "SDL2/SDL_image.h"
+#include "SDL2/SDL_ttf.h"
 
 struct leaderboardPos
 {
@@ -29,7 +31,7 @@ public:
 
   void getLeaderboard();
   void showLeaderboardBackground();
-  void showLeaderboardText();
+  void showLeaderboardText(SDL_Renderer *renderer);
   void displayLeaderboard();
   void saveToLeaderboard(std::string name, int time, int money, int score);
   void saveToLeaderboard(leaderboardPos tmpLeaderboardPos);
@@ -69,11 +71,6 @@ private:
   SDL_Texture* dirtTopRight;
   SDL_Texture* dirtBottomLeft;
   SDL_Texture* dirtBottomRight;
-
-  SDL_Rect noLeaderboardTxtSrcRect;
-  SDL_Rect noLeaderboardTxtDestRect;
-
-  SDL_Texture* noLeaderboardText;
 
   std::vector<leaderboardPos> leaderboard;
 };

@@ -1,3 +1,5 @@
+#include <sstream>
+
 #include "leaderboard.h"
 
 #include "textureManager.h"
@@ -19,14 +21,6 @@ Leaderboard::Leaderboard()
   backgroundSrcRect.h = backgroundDestRect.h = 32;
 
   backgroundDestRect.x = backgroundDestRect.y = 0;
-
-  noLeaderboardText = textureManager::loadTexture("assets/noLeaderboardText.png");
-
-  noLeaderboardTxtSrcRect.x = noLeaderboardTxtSrcRect.y = 0;
-  noLeaderboardTxtSrcRect.w = noLeaderboardTxtDestRect.w = 768;
-  noLeaderboardTxtSrcRect.h = noLeaderboardTxtDestRect.h = 608;
-
-  noLeaderboardTxtDestRect.x = noLeaderboardTxtDestRect.y = 32;
 }
 
 Leaderboard::~Leaderboard()
@@ -111,9 +105,46 @@ void Leaderboard::showLeaderboardBackground()
   } //int row = 0; row < 20; row++
 } //showLeaderboardBackground()
 
-void Leaderboard::showLeaderboardText()
+void Leaderboard::showLeaderboardText(SDL_Renderer *renderer)
 {
-  textureManager::draw(noLeaderboardText, noLeaderboardTxtSrcRect, noLeaderboardTxtDestRect);
+  TTF_Init();
+
+  int j = 1;
+  std::stringstream leaderboardMessage;
+  leaderboardMessage << "--Leaderboard--\n";
+  leaderboardMessage << "Name | time | money | score\n";
+  for(leaderboardPos i : leaderboard)
+  {
+    if(j < 6)
+    {
+      leaderboardMessage << j << ". " << i.name << " | " << i.time << " | " << i.money << " | " << i.score << "    ";
+      j++;
+    } // j < 6
+    else
+    {
+      break;
+    }
+  } //leaderboardPos i : leaderboard
+
+  TTF_Font *font = TTF_OpenFont("assets/pressStart.ttf", 24);
+  SDL_Color color = {255, 255, 255};
+  Uint32 leaderboardWidth = 716;
+  SDL_Surface *surface = TTF_RenderText_Blended_Wrapped(font, leaderboardMessage.str().c_str(), color, leaderboardWidth);
+
+  SDL_Texture *texture = SDL_CreateTextureFromSurface(renderer, surface);
+
+  int textW = 0;
+  int textH = 0;
+  SDL_QueryTexture(texture, NULL, NULL, &textW, &textH);
+  SDL_Rect dstrect = {42, 42, textW, textH};
+
+  SDL_RenderCopy(renderer, texture, NULL, &dstrect);
+  SDL_RenderPresent(renderer);
+
+  SDL_DestroyTexture(texture);
+  SDL_FreeSurface(surface);
+  TTF_CloseFont(font);
+  TTF_Quit();
 }
 
 void Leaderboard::displayLeaderboard()
