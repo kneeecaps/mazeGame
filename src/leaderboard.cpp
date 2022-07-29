@@ -110,14 +110,18 @@ void Leaderboard::showLeaderboardText(SDL_Renderer *renderer)
   TTF_Init();
 
   int j = 1;
-  std::stringstream leaderboardMessage;
-  leaderboardMessage << "--Leaderboard--\n";
-  leaderboardMessage << "Name | time | money | score\n";
+  std::stringstream leaderboardContentsText;
+  std::string leaderboardTitleText;
+  std::string leaderboardMessageText;
+
+  leaderboardTitleText = "---LEADERBOARD---";
+  leaderboardMessageText = "Please switch to the terminal window to save your score to the leaderboard. Do not close this window if you want to save it";
+  leaderboardContentsText << "Name | time | money | score\n";
   for(leaderboardPos i : leaderboard)
   {
     if(j < 6)
     {
-      leaderboardMessage << j << ". " << i.name << " | " << i.time << " | " << i.money << " | " << i.score << "    ";
+      leaderboardContentsText << j << ". " << i.name << " | " << i.time << " | " << i.money << " | " << i.score << "    ";
       j++;
     } // j < 6
     else
@@ -129,20 +133,38 @@ void Leaderboard::showLeaderboardText(SDL_Renderer *renderer)
   TTF_Font *font = TTF_OpenFont("assets/pressStart.ttf", 24);
   SDL_Color color = {255, 255, 255};
   Uint32 leaderboardWidth = 716;
-  SDL_Surface *surface = TTF_RenderText_Blended_Wrapped(font, leaderboardMessage.str().c_str(), color, leaderboardWidth);
+  SDL_Surface *leaderboardContentsSurface = TTF_RenderText_Blended_Wrapped(font, leaderboardContentsText.str().c_str(), color, leaderboardWidth);
+  SDL_Surface *leaderboardTitleSurface = TTF_RenderText_Blended_Wrapped(font, leaderboardTitleText.c_str(), color, leaderboardWidth);
+  SDL_Surface *leaderboardMessageSurface = TTF_RenderText_Blended_Wrapped(font, leaderboardMessageText.c_str(), color, leaderboardWidth);
 
-  SDL_Texture *texture = SDL_CreateTextureFromSurface(renderer, surface);
+  SDL_Texture *leaderboardContents = SDL_CreateTextureFromSurface(renderer, leaderboardContentsSurface);
+  SDL_Texture *leaderboardTitle = SDL_CreateTextureFromSurface(renderer, leaderboardTitleSurface);
+  SDL_Texture *leaderboardMessage = SDL_CreateTextureFromSurface(renderer, leaderboardMessageSurface);
 
-  int textW = 0;
-  int textH = 0;
-  SDL_QueryTexture(texture, NULL, NULL, &textW, &textH);
-  SDL_Rect dstrect = {42, 42, textW, textH};
+  int contentsW = 0;
+  int contentsH = 0;
+  int titleW = 0;
+  int titleH = 0;
+  int messageW = 0;
+  int messageH = 0;
+  SDL_QueryTexture(leaderboardContents, NULL, NULL, &contentsW, &contentsH);
+  SDL_Rect leaderboardContentsRect = {42, 74, contentsW, contentsH};
+  SDL_QueryTexture(leaderboardTitle, NULL, NULL, &titleW, &titleH);
+  SDL_Rect leaderboardTitleRect = {196, 42, titleW, titleH};
+  SDL_QueryTexture(leaderboardMessage, NULL, NULL, &messageW, &messageH);
+  SDL_Rect leaderboardMessageRect = {42, 292, messageW, messageH};
 
-  SDL_RenderCopy(renderer, texture, NULL, &dstrect);
+  SDL_RenderCopy(renderer, leaderboardContents, NULL, &leaderboardContentsRect);
+  SDL_RenderCopy(renderer, leaderboardTitle, NULL, &leaderboardTitleRect);
+  SDL_RenderCopy(renderer, leaderboardMessage, NULL, &leaderboardMessageRect);
   SDL_RenderPresent(renderer);
 
-  SDL_DestroyTexture(texture);
-  SDL_FreeSurface(surface);
+  SDL_DestroyTexture(leaderboardContents);
+  SDL_DestroyTexture(leaderboardTitle);
+  SDL_DestroyTexture(leaderboardMessage);
+  SDL_FreeSurface(leaderboardContentsSurface);
+  SDL_FreeSurface(leaderboardTitleSurface);
+  SDL_FreeSurface(leaderboardMessageSurface);
   TTF_CloseFont(font);
   TTF_Quit();
 }
